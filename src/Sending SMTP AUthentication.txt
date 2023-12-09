@@ -1,0 +1,59 @@
+    ' This example discusses SMTP authentication
+    '
+    ' If your SMTP server requires authentication, you will need
+    ' to set the ChilkatMailMan2.SmtpUsername and SmtpPassword properties.
+    ' NOTE: Some SMTP servers require authentication when your program
+    ' connects from outside a firewall, but do not require authentication
+    ' when connecting from within it's own network (i.e. on the same side
+    ' of the firewall as the SMTP server).
+    '
+    ' The ChilkatMailMan2.SmtpAuthMethod can explicitly control the
+    ' authentication method used by the Chilkat email component.
+    ' By default, it is set to an empty string which indicates that
+    ' the most secure authentication method supported by the SMTP server
+    ' should be used.  This is typically NTLM or CRAM-MD5.
+    ' For most cases, you should never need to set the SmtpAuthMethod property.
+    '
+        
+    ' Create an instance of the mailman for the purpose of unlocking.
+    Dim mailman As New ChilkatMailMan2
+    mailman.UnlockComponent "Anything for 30-day trial"
+    
+    ' Create a new email object...
+    Dim email As New ChilkatEmail2
+    email.Subject = "This is a test"
+    email.Body = "This is the mail body"
+    email.AddTo "Chilkat Support", "support@chilkatsoft.com"
+    email.From = "Chilkat Sales <sales@chilkatsoft.com>"
+    
+    ' We can send the email like this:
+    mailman.SmtpHost = "smtp.comcast.net"
+    ' If the SMTP server does not require authentication, these two
+    ' lines can be omitted.
+    mailman.SmtpUsername = "myLogin"
+    mailman.SmtpPassword = "myPassword"
+        
+    ' If there is a problem with authentication, the "LOGIN" method is surely supported:
+    mailman.SmtpAuthMethod = "LOGIN"
+    
+    ' However, if you use the "LOGIN" method of authentication, your SMTP username/password
+    ' is sent over the Internet unprotected.  A good way of solving this is to
+    ' use SMTP SSL:
+    mailman.SmtpSsl = 1     ' Tell the mailman to connect via SSL
+    mailman.SmtpPort = 465  ' Most SMTP servers listen at port 465 for SSL connections.
+    ' Now you can use LOGIN authentication because everything is protected by the SSL connection.
+    
+    ' An alternative is to use STARTTLS.  This means that the SMTP server is initially
+    ' connected on a normal, unsecure connect at the default SMTP port 25.
+    mailman.SmtpSsl = 0
+    mailman.SmtpPort = 25
+    mailman.StartTLS = 1
+    ' The StartTLS option causes the connection to be converted to an SSL/TLS connection
+    ' such that the authentication and mail sending occurs over a secure channel.
+    
+    success = mailman.SendEmail(email)
+    If (success = 0) Then
+        MsgBox mailman.LastErrorText
+    Else
+        MsgBox "Mail Sent!"
+    End If

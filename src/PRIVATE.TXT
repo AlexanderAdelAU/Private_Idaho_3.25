@@ -1,0 +1,3 @@
+$remailer{"marvin"} = "<remailer@itech.net.au> cpunk pgp pgponly";
+marvin remailer@itech.net.au             ##               51:18  12.44%
+

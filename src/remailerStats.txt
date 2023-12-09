@@ -1,0 +1,16 @@
+replay   remailer@replay.com              +*  ********     3:43  99.76%
+nym      config@nym.alias.net             ###+##### ##     2:29  99.70%
+squirrel mix@squirrel.owl.de              -----------   1:57:21  99.69%
+jsbach   jsbach@idirect.ca                ..--.-...-   20:29:04  99.47%
+hr13     remailer@hr13.zedz.net           _.-++------  12:13:51  98.91%
+cilla    priscilla@spyral.net             ------ ---    5:25:12  97.88%
+mix      mixmaster@remail.obscura.com     _  _     +   80:17:32  97.66%
+widow    Widow@wol.be                     .-____---    28:20:37  94.99%
+magnet   deldotb@juno.com                 ------ _     25:36:58  94.91%
+nitemare nightmare@uni-muenster.de        -#- -++.-*    9:43:55  93.81%
+quegati  quegati.remailer@virgin.net      ----- -.     19:40:37  80.11%
+canuck   canmail@home.com                               4:13:05  65.39%
+flash    remailer@flashmail.com           -----  -      9:53:59  63.62%
+epitax   epitax@juno.com                  ------        2:25:40  38.67%
+cripto   anon@ecn.org                                     27:43   0.00%
+bleep    bluebox@phreaker.net                          32:03:02   0.00%

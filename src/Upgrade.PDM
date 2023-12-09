@@ -1,0 +1,101 @@
+[Root]
+Most Recent Package=Upgrade Package
+
+
+[Package|Upgrade Package|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Pi32\package(2)
+
+[Package|Upgrade Package|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=No
+Excel=No
+Text=No
+Jet 2.x=No
+
+[Package|Upgrade Package|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Upgrade Package|Files Found]
+
+[Package|Upgrade Package|Files Released]
+
+[Package|Upgrade Package|Missing Dependency Information]
+
+[Package|Upgrade Package|Out-of-Date Dependency Information]
+
+[Package|Upgrade Package|Files Added]
+
+[Package|Upgrade Package|Files Removed]
+
+[Package|Upgrade Package|Files In Project]
+D:\Pi32\Upgrade.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\WINNT\system32\OLEAUT32.DLL=Yes
+C:\WINNT\system32\OLEPRO32.DLL=Yes
+C:\WINNT\system32\ASYCFILT.DLL=Yes
+C:\WINNT\system32\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINNT\system32\msjet35.dll=Yes
+C:\WINNT\system32\MSJTER35.DLL=Yes
+C:\WINNT\system32\MSJINT35.DLL=Yes
+C:\WINNT\system32\VBAJET32.DLL=Yes
+C:\WINNT\system32\EXPSRV.DLL=Yes
+C:\WINNT\system32\MSRD2X35.DLL=Yes
+C:\WINNT\system32\msrepl35.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINNT\system32\VB5DB.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Upgrade Package|Configure Registry Files]
+Applicable=No
+
+[Package|Upgrade Package|Configure Remote Servers]
+Applicable=No
+
+[Package|Upgrade Package|Install Locations]
+D:\Pi32\Upgrade.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINNT\system32\msjet35.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\VBAJET32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\EXPSRV.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\msrepl35.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\VB5DB.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Upgrade Package|Configure Shared Files]
+Applicable=Yes
+D:\Pi32\Upgrade.exe=No
+
+[Package|Upgrade Package|Distribution]
+Type=single
+Size=
+Title=upgrage
+
+[Package|Upgrade Package|Package]
+PackageFolder=D:\Pi32\package(2)
+ProjectFolder=D:\Pi32
+ServerSideCab=
+File1=D:\Pi32\package(2)\setup.exe
+File2=D:\Pi32\package(2)\Setup.Lst
+File3=D:\Pi32\package(2)\Upgrade.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

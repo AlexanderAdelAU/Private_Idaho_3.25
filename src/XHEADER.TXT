@@ -1,0 +1,6 @@
+Newsgroups: alt.test
+Subject: Test Message
+Message-ID: <123668849@nowhere.net>
+References: <>
+
+
