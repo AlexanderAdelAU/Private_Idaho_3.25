@@ -1,0 +1,153 @@
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Welcome to Private Idaho v3.2 the 32 bit edition
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+PI32 version 3.2 is a major upgrade to hopefully simplify the task of
+encrypted email.  I felt the previous version required to much expert
+to run.  I therefore apologise for any 'advanced features' that have
+been removed. I have used my judgement in the simplification process so
+if anything has been removed that you believe should remain please do
+not hesitate to email me.
+
+Features of PI 3.2
+1. Mail Folders
+2. UU-Encoding and Base 64 encoding support
+3. Multi-part messages support for mixmaster
+4. Mixmaster can reside in any 8.3 directory.
+5. Better support for newsgroup posting
+6. Better support for remailers.
+
+
+Technical Stuff for Private Idaho 3.2 beta
+----------------------------------------------
+
+Before you start
+---------------
+
+You must install PGP if you wish to use PI with it.  Otherwise PI
+will not be able to encrypt any messages.  Make sure you have the 
+correct settings in the autoexec.bat file and after you have installed
+PGP do this.
+
+1.  Use the windows explorer and open the PGP directory (eg C:\PGP)
+2.  Find PGP.EXE and "right click on PGP.EXE"
+3.  Click on "Properties"
+4.  Click on the "Program" tab
+5.  In the "Working Directory"  type in "C:\PGP
+
+Now if you have installed mixmaster then do the same for it. 
+
+If you follow the guidance above, this the necessary "DOS" files will be 
+created and your life will be a zillion times more pleasant as PI will
+likely work first time.
+
+
+What is PI 32
+-------------
+This is a new 32-bit beta release of Private Idaho (a PGP, anonymous
+remailer, and nym server front-end for Windows).  This document
+updates any information found in the help file.  The current
+publicly available help files relate to v2.8b3, the last beta
+release of PI.  This release came out during May, 1998.  A new version
+of the help manual will appear both in web form and will be 
+available for download as a word document on the internet.
+
+Source Code for earlier versions:
+------------
+Private Idaho is unsupported freeware, licensed under the GNU
+General Public License.  The licensing agreement is found in the
+license.txt file, distributed with this application.  See:
+
+http://www.eskimo.com/~joelm/pi.html
+
+
+DOS Limits
+Because PI shells to a DOS version of PGP you must place PI
+in a directory that conforms to the DOS 8.3 standard.  Thus
+1.  PI should be in DRIVE:\PI32
+2.  PGP should be in DRIVE:\PGP
+
+Also because of the 128 character DOS command limit
+you will need to be careful when using mixmaster, especially when
+posting to newsgroups.  Unfortunately, there is no way to
+get around the 128 character limit at present.  However, I have
+shaved characters from the command stream wherever possible.  I
+have also provided a count when the stream exceeds 128 to give
+you an idea of the length of the string.  Usually, the limit
+will not be exceeded except in the case of encrypting to self
+plus signing plus encrypting for multiple recipients.
+
+
+Installation
+------------
+SETUPEX.EXE is a self-extracting compressed installation program.
+It installs and registers all of the required files to run Private 
+Idaho.  The installer includes an unistaller which will be added 
+to the PI program group.
+
+If you're updating a previous previous of Private Idaho, PI-SETUP will
+only replace older files.  The new version does not destroy any information
+you have saved in your PIDAHO.INI settings file which is located in 
+the windows directory.
+
+If for some reason you have problems with the installation, you can
+manually copy the files look at the file pi32.dep which will list all the
+files that should have been installed on your system.
+
+
+Mixmaster and Private Idaho
+---------------------------
+Mixmaster (or Type II) remailers offer a high level of security 
+(see http://www.obscura.com/~loki for complete details).  Up until now,
+Mixmaster has only been available to UNIX users.  Mixmaster's author, 
+Lance Cottrell, has recently released a DOS client version of the 
+application that works with Private Idaho 2.7b (and later).
+
+Since the Mixmaster client uses export-controlled cryptography, it is not
+included with Private Idaho.  Refer to http://www.obscura.com/~loki for 
+information on how to get a copy of MIXMASTE.ZIP (the compressed version
+of Mixmaster and its support files).  
+
+To be able to send messages through Mixmaster remailers you need several 
+files:
+
+MIXMASTE.EXE - the Mixmaster client
+MIXMASTE.CON - a support file
+PUBRING.MIX - the list of Mixmaster remailer keys
+TYPE2.LIS - the list of Mixmaster remailers
+MIXMSTR.TXT - statistics on Mixmaster remailers
+MIX.PIF - the PIF file for shelling to the DOS application
+
+These files are included in the MIXMASTE.ZIP file.  Uncompress the files and
+move them to any directory.  PI will look for them and provided it is in a 8.3 
+directory it should work fine.
+
+After you've installed these files, in the AUTOEXEC.BAT file add the 
+following line:
+
+SET MIXPATH=C:\PI32
+
+with the directory path specifying the Private Idaho directory.  Reboot your 
+computer and run Private Idaho.
+
+Using Mixmaster remailers with Private Idaho is no different than using 
+Cypherpunk style remailers.  Select Mixmaster from the Remailers menu, 
+compose and address your message, select the remailer(s) from the drop-down
+list box to use, and choose Append info from the Message menu.
+
+Private Idaho will shell out to the DOS version of Mixmaster, and prepare 
+the message for sending.
+
+You'll need to update information about Mixmaster remailers, just like 
+Cypherpunk remailers.  Specifically the PUBRING.MIX, TYPE2.LIS, and
+MIXMSTR.TXT files.  You can do this over the Net with the new update
+remailer info command.
+
+Updated Mixmaster information can be found at:
+
+http://www.cs.berkeley.edu/~raph/remailer-list.html
+
+and
+
+http://www.jpunix.com
+

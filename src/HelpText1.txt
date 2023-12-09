@@ -1,0 +1,7 @@
+
+Compose the message in the Message text box.
+
+In the To: text box, enter the PGP user ID of person you'll be sending the
+message to.  This is usually an e-mail address.  You must have already added
+the person's key to your public key ring.  You can also click on the To box to
+access your or your PGP Key ring.From the PGP menu, choose the 'Encrypt message' command.  
