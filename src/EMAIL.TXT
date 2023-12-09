@@ -1,0 +1,31 @@
+Eudora Pro
+Eudora Pro
+%M,enter,to,subject,cc,bcc,msg
+Eudora
+Eudora
+%M,enter,to,subject,cc,bcc,msg
+Pegasus
+Pegasus Mail
+to,subject,cc,msg
+MSExchg
+Inbox - Microsoft Exchange
+%M,enter,to,cc,subject,msg
+Netscape
+Netscape - [
+%F,M,to,cc,subject,msg
+Free Agent
+Free Agent - [
+%P,E,to,subject,tab,tab,tab,tab,tab,tab,tab,tab,msg
+Agent
+Agent - [
+to,subject,%c,cc,%u,bcc,%i,f,from,%x,msg
+Pronto
+Pronto
+to,subject,tab,tab,msg
+Mail OnNet
+Mail OnNet
+%N,enter,to,cc,subject,msg
+AOL
+America  Online
+to,subject,cc,msg
+
