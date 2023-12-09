@@ -1,0 +1,112 @@
+[Version]
+Version=4.0.0.16
+
+[pi32v4.exe <0009>]
+Dest=$(AppPath)
+Date=23/08/99
+Time=21:37
+Version=4.0.0.16
+CABFilename=pi32v4.CAB
+CABINFFile=pi32v4.INF
+Uses1=MSVBVM60.DLL
+Uses2=OLEAUT32.DLL
+Uses3=OLEPRO32.DLL
+Uses4=ASYCFILT.DLL
+Uses5=STDOLE2.TLB
+Uses6=COMCAT.DLL
+Uses7=APIGID32.DLL
+Uses8=spgp.dll
+Uses9=COMDLG32.OCX
+Uses10=DAO350.DLL
+Uses11=MSFLXGRD.OCX
+Uses12=RICHTX32.OCX
+Uses13=Threed20.ocx
+Uses14=SSTree.ocx
+Uses15=SPLITTER.OCX
+Uses16=COMCTL32.OCX
+Uses17=TABCTL32.OCX
+Uses18=ipport40.ocx
+Uses19=netcod40.ocx
+Uses20=ipinfo40.ocx
+Uses21=http40.ocx
+Uses22=smtp40.ocx
+Uses23=nntp40.ocx
+Uses24=mime40.ocx
+Uses25=FileIconImageList.ocx
+Uses26=pop40.ocx
+Uses27=MSMASK32.OCX
+Uses28=KeyServerURL.TXT
+Uses29=headers.txt
+Uses30=hello.txt
+Uses31=InfoURL.TXT
+Uses32=MixListURL.TXT
+Uses33=mixmaster.htm
+Uses34=MixPubRingURL.TXT
+Uses35=MixType2URL.TXT
+Uses36=keysURL.TXT
+Uses37=type2.lis
+Uses38=pubring.mix
+Uses39=remailer.htm
+Uses40=SubmitKeyAddr.TXT
+Uses41=PI32PostOffice.mdb
+Uses42=USENET.txt
+
+[SSTree.ocx <0009>]
+Dest=$(WinSysPath)
+Date=1/02/99
+Time=17:02
+Version=1.0.2.8
+
+[ipport40.ocx <0009>]
+Dest=$(WinSysPath)
+Date=4/06/99
+Time=12:14
+Version=4.0.0.91
+
+[netcod40.ocx <0009>]
+Dest=$(WinSysPath)
+Date=4/06/99
+Time=12:18
+Version=4.0.0.91
+
+[ipinfo40.ocx <0009>]
+Dest=$(WinSysPath)
+Date=4/06/99
+Time=12:13
+Version=4.0.0.91
+
+[http40.ocx <0009>]
+Dest=$(WinSysPath)
+Date=4/06/99
+Time=12:10
+Version=4.0.0.91
+
+[smtp40.ocx <0009>]
+Dest=$(WinSysPath)
+Date=4/06/99
+Time=12:22
+Version=4.0.0.91
+
+[nntp40.ocx <0009>]
+Dest=$(WinSysPath)
+Date=4/06/99
+Time=12:19
+Version=4.0.0.91
+
+[mime40.ocx <0009>]
+Dest=$(WinSysPath)
+Date=16/08/99
+Time=22:47
+Version=4.0.0.99
+
+[FileIconImageList.ocx <0009>]
+Dest=$(WinSysPath)
+Date=20/02/98
+Time=10:14
+Version=1.0.0.0
+
+[pop40.ocx <0009>]
+Dest=$(WinSysPath)
+Date=4/06/99
+Time=12:20
+Version=4.0.0.91

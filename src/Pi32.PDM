@@ -1,0 +1,301 @@
+[Root]
+Most Recent Package=Private Idaho
+Most Recent Deploy=Private Idaho 32
+
+[Deploy|Private Idaho 32|Root]
+Package=Private Idaho
+Handler=PDWizard.FolderDplySubWiz
+Folder=h:\InetPub\ftproot\PI32
+
+[Package|Private Idaho|Private Idaho 32 (Version 3.2.18)]
+Icon1=Pi32.exe
+Title1=Private Idaho 32 (Version 3.2.18)
+StartIn1=$(AppPath)
+Key1=Icon1
+
+
+[Package|Private Idaho|Private Idaho 32 (Version 3.2.10)]
+Icon1=Pi32.exe
+Title1=Private Idaho 32 (Version 3.2.10)
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Private Idaho|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Pi32\Package
+
+[Package|Private Idaho|Configure DAO ISAMs]
+Applicable=Yes
+Jet 2.x=Yes
+Xbase=No
+Excel=No
+Text=No
+
+[Package|Private Idaho|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Private Idaho|Files Found]
+
+[Package|Private Idaho|Files Released]
+OCX Runtime Support=
+
+[Package|Private Idaho|Missing Dependency Information]
+C:\Program Files\IPWorks\Visual Basic Edition\lib\NNTP33.OCX=
+C:\Program Files\IPWorks\Visual Basic Edition\lib\HTTP33.OCX=
+C:\Program Files\IPWorks\Visual Basic Edition\lib\IPINFO33.OCX=
+C:\Program Files\IPWorks\Visual Basic Edition\lib\IPPORT33.OCX=
+C:\Program Files\IPWorks\Visual Basic Edition\lib\POP33.OCX=
+C:\Program Files\IPWorks\Visual Basic Edition\lib\NETCOD33.OCX=
+C:\Program Files\IPWorks\Visual Basic Edition\lib\SMTP33.OCX=
+C:\WINNT\system32\OC30.DLL=
+C:\Program Files\IPWorks\ActiveX Edition\lib\NNTP35.Ocx=
+C:\Program Files\IPWorks\ActiveX Edition\lib\POP35.Ocx=
+C:\Program Files\IPWorks\ActiveX Edition\lib\SMTP35.Ocx=
+C:\Program Files\IPWorks\ActiveX Edition\lib\HTTP35.Ocx=
+C:\Program Files\IPWorks\ActiveX Edition\lib\IPINFO35.Ocx=
+C:\Program Files\IPWorks\ActiveX Edition\lib\NETCOD35.Ocx=
+C:\Program Files\IPWorks\ActiveX Edition\lib\IPPORT35.Ocx=
+C:\Sheridan\ActiveThreed\SPLITTER.OCX=
+C:\Sheridan\ActiveTreeView\SSTree.ocx=
+C:\Sheridan\ActiveThreed\THREED20.OCX=
+C:\WINNT\system32\IPPORT35.Ocx=
+C:\WINNT\system32\NNTP35.Ocx=
+C:\WINNT\system32\NETCOD35.Ocx=
+C:\WINNT\system32\SMTP35.Ocx=
+C:\WINNT\system32\IPINFO35.Ocx=
+C:\WINNT\system32\HTTP35.Ocx=
+C:\WINNT\system32\POP35.Ocx=
+
+[Package|Private Idaho|Out-of-Date Dependency Information]
+C:\WINNT\system32\SPLITTER.OCX=
+C:\WINNT\system32\Threed20.ocx=
+
+[Package|Private Idaho|Files Added]
+d:\pi32\distribution files\address.txt=
+d:\pi32\distribution files\email.txt=
+d:\pi32\distribution files\hello.txt=
+d:\pi32\distribution files\infourl.txt=
+d:\pi32\distribution files\keyserverurl.txt=
+d:\pi32\distribution files\keysurl.txt=
+d:\pi32\distribution files\mixlisturl.txt=
+d:\pi32\distribution files\mixmaste.htm=
+d:\pi32\distribution files\mixpubringurl.txt=
+d:\pi32\distribution files\mixtype2url.txt=
+d:\pi32\distribution files\nymkeys.txt=
+d:\pi32\distribution files\pi32postoffice.mdb=
+d:\pi32\distribution files\pubring.mix=
+d:\pi32\distribution files\readme.pi=
+d:\pi32\distribution files\remailer.htm=
+d:\pi32\distribution files\remailerurl.txt=
+d:\pi32\distribution files\sig.txt=
+d:\pi32\distribution files\submitkeyaddr.txt=
+d:\pi32\distribution files\type2.lis=
+d:\pi32\distribution files\urls.txt=
+d:\pi32\distribution files\usenet.txt=
+d:\pi32\distribution files\mailbox\_pitemp.tmp=
+
+[Package|Private Idaho|Files Removed]
+c:\winnt\system32\apigid32.dll=
+
+[Package|Private Idaho|Files In Project]
+D:\Pi32\Pi32.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\WINNT\system32\OLEAUT32.DLL=Yes
+C:\WINNT\system32\OLEPRO32.DLL=Yes
+C:\WINNT\system32\ASYCFILT.DLL=Yes
+C:\WINNT\system32\STDOLE2.TLB=Yes
+C:\WINNT\system32\COMDLG32.OCX=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINNT\system32\msjet35.dll=Yes
+C:\WINNT\system32\msjter35.dll=Yes
+C:\WINNT\system32\MSJINT35.DLL=Yes
+C:\WINNT\system32\vbajet32.dll=Yes
+C:\WINNT\system32\EXPSRV.DLL=Yes
+C:\WINNT\system32\msrd2x35.dll=Yes
+C:\WINNT\system32\msrepl35.dll=Yes
+C:\WINNT\system32\VB5DB.DLL=Yes
+C:\WINNT\system32\MSFLXGRD.OCX=Yes
+C:\WINNT\system32\RICHTX32.OCX=Yes
+C:\WINNT\system32\COMCTL32.OCX=Yes
+C:\WINNT\system32\TABCTL32.OCX=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+D:\Pi32\Distribution Files\ADDRESS.TXT=Yes
+D:\Pi32\Distribution Files\EMAIL.TXT=Yes
+D:\Pi32\Distribution Files\hello.txt=Yes
+D:\Pi32\Distribution Files\InfoURL.TXT=Yes
+D:\Pi32\Distribution Files\KeyServerURL.TXT=Yes
+D:\Pi32\Distribution Files\keysURL.TXT=Yes
+D:\Pi32\Distribution Files\MixListURL.TXT=Yes
+D:\Pi32\Distribution Files\mixmaste.htm=Yes
+D:\Pi32\Distribution Files\MixPubRingURL.TXT=Yes
+D:\Pi32\Distribution Files\MixType2URL.TXT=Yes
+D:\Pi32\Distribution Files\nymkeys.txt=Yes
+D:\Pi32\Distribution Files\PI32PostOffice.mdb=Yes
+D:\Pi32\Distribution Files\pubring.mix=Yes
+D:\Pi32\Distribution Files\README.PI=Yes
+D:\Pi32\Distribution Files\remailer.htm=Yes
+D:\Pi32\Distribution Files\RemailerURL.TXT=Yes
+D:\Pi32\Distribution Files\SIG.TXT=Yes
+D:\Pi32\Distribution Files\SubmitKeyAddr.TXT=Yes
+D:\Pi32\Distribution Files\type2.lis=Yes
+D:\Pi32\Distribution Files\URLS.TXT=Yes
+D:\Pi32\Distribution Files\USENET.txt=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Pi32\Distribution Files\mailbox\_pitemp.tmp=Yes
+C:\WINNT\system32\THREED20.OCX=Yes
+C:\WINNT\system32\SSTree.ocx=Yes
+C:\WINNT\system32\MSVCRT.DLL=Yes
+C:\WINNT\system32\SPLITTER.OCX=Yes
+C:\WINNT\system32\POP35.Ocx=Yes
+C:\WINNT\system32\HTTP35.Ocx=Yes
+C:\WINNT\system32\IPINFO35.Ocx=Yes
+C:\WINNT\system32\SMTP35.Ocx=Yes
+C:\WINNT\system32\NETCOD35.Ocx=Yes
+C:\WINNT\system32\NNTP35.Ocx=Yes
+C:\WINNT\system32\IPPORT35.Ocx=Yes
+
+[Package|Private Idaho|Configure Registry Files]
+Applicable=No
+
+[Package|Private Idaho|Configure Remote Servers]
+Applicable=No
+
+[Package|Private Idaho|Install Locations]
+D:\Pi32\Pi32.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\IPWorks\Visual Basic Edition\lib\SMTP33.OCX=$(WinSysPath)
+C:\Program Files\IPWorks\Visual Basic Edition\lib\NETCOD33.OCX=$(WinSysPath)
+C:\Program Files\IPWorks\Visual Basic Edition\lib\POP33.OCX=$(WinSysPath)
+C:\Program Files\IPWorks\Visual Basic Edition\lib\IPPORT33.OCX=$(WinSysPath)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+C:\Program Files\IPWorks\Visual Basic Edition\lib\IPINFO33.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINNT\system32\msjet35.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjter35.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\EXPSRV.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\msrd2x35.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrepl35.dll=$(WinSysPathSysFile)
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINNT\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINNT\system32\RICHTX32.OCX=$(WinSysPath)
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\Threed20.ocx=$(WinSysPath)
+C:\WINNT\system32\SSTree.ocx=$(WinSysPath)
+C:\WINNT\system32\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\SPLITTER.OCX=$(WinSysPath)
+C:\WINNT\system32\COMCTL32.OCX=$(WinSysPath)
+C:\WINNT\system32\TABCTL32.OCX=$(WinSysPath)
+C:\Program Files\IPWorks\Visual Basic Edition\lib\HTTP33.OCX=$(WinSysPath)
+C:\Program Files\IPWorks\Visual Basic Edition\lib\NNTP33.OCX=$(WinSysPath)
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Pi32\Distribution Files\ADDRESS.TXT=$(AppPath)
+D:\Pi32\Distribution Files\EMAIL.TXT=$(AppPath)
+D:\Pi32\Distribution Files\hello.txt=$(AppPath)
+D:\Pi32\Distribution Files\InfoURL.TXT=$(AppPath)
+D:\Pi32\Distribution Files\KeyServerURL.TXT=$(AppPath)
+D:\Pi32\Distribution Files\keysURL.TXT=$(AppPath)
+D:\Pi32\Distribution Files\MixListURL.TXT=$(AppPath)
+D:\Pi32\Distribution Files\mixmaste.htm=$(AppPath)
+D:\Pi32\Distribution Files\MixPubRingURL.TXT=$(AppPath)
+D:\Pi32\Distribution Files\MixType2URL.TXT=$(AppPath)
+D:\Pi32\Distribution Files\nymkeys.txt=$(AppPath)
+D:\Pi32\Distribution Files\PI32PostOffice.mdb=$(AppPath)
+D:\Pi32\Distribution Files\pubring.mix=$(AppPath)
+D:\Pi32\Distribution Files\README.PI=$(AppPath)
+D:\Pi32\Distribution Files\remailer.htm=$(AppPath)
+D:\Pi32\Distribution Files\RemailerURL.TXT=$(AppPath)
+D:\Pi32\Distribution Files\SIG.TXT=$(AppPath)
+D:\Pi32\Distribution Files\SubmitKeyAddr.TXT=$(AppPath)
+D:\Pi32\Distribution Files\type2.lis=$(AppPath)
+D:\Pi32\Distribution Files\URLS.TXT=$(AppPath)
+D:\Pi32\Distribution Files\USENET.txt=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OC30.DLL=$(WinSysPath)
+C:\WINNT\system32\mfcans32.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT20.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Pi32\Distribution Files\mailbox\_pitemp.tmp=$(AppPath)\mailbox
+C:\Sheridan\ActiveThreed\THREED20.OCX=$(WinSysPath)
+C:\Sheridan\ActiveTreeView\SSTree.ocx=$(WinSysPath)
+C:\Sheridan\ActiveThreed\SPLITTER.OCX=$(WinSysPath)
+C:\Program Files\IPWorks\ActiveX Edition\lib\IPPORT35.Ocx=$(WinSysPath)
+C:\Program Files\IPWorks\ActiveX Edition\lib\NETCOD35.Ocx=$(WinSysPath)
+C:\Program Files\IPWorks\ActiveX Edition\lib\IPINFO35.Ocx=$(WinSysPath)
+C:\Program Files\IPWorks\ActiveX Edition\lib\HTTP35.Ocx=$(WinSysPath)
+C:\Program Files\IPWorks\ActiveX Edition\lib\SMTP35.Ocx=$(WinSysPath)
+C:\Program Files\IPWorks\ActiveX Edition\lib\POP35.Ocx=$(WinSysPath)
+C:\Program Files\IPWorks\ActiveX Edition\lib\NNTP35.Ocx=$(WinSysPath)
+C:\WINNT\system32\POP35.Ocx=$(WinSysPath)
+C:\WINNT\system32\HTTP35.Ocx=$(WinSysPath)
+C:\WINNT\system32\IPINFO35.Ocx=$(WinSysPath)
+C:\WINNT\system32\SMTP35.Ocx=$(WinSysPath)
+C:\WINNT\system32\NETCOD35.Ocx=$(WinSysPath)
+C:\WINNT\system32\NNTP35.Ocx=$(WinSysPath)
+C:\WINNT\system32\IPPORT35.Ocx=$(WinSysPath)
+
+[Package|Private Idaho|Configure Shared Files]
+Applicable=Yes
+D:\Pi32\Pi32.exe=No
+D:\Pi32\Distribution Files\ADDRESS.TXT=No
+D:\Pi32\Distribution Files\EMAIL.TXT=No
+D:\Pi32\Distribution Files\hello.txt=No
+D:\Pi32\Distribution Files\InfoURL.TXT=No
+D:\Pi32\Distribution Files\KeyServerURL.TXT=No
+D:\Pi32\Distribution Files\keysURL.TXT=No
+D:\Pi32\Distribution Files\MixListURL.TXT=No
+D:\Pi32\Distribution Files\mixmaste.htm=No
+D:\Pi32\Distribution Files\MixPubRingURL.TXT=No
+D:\Pi32\Distribution Files\MixType2URL.TXT=No
+D:\Pi32\Distribution Files\nymkeys.txt=No
+D:\Pi32\Distribution Files\PI32PostOffice.mdb=No
+D:\Pi32\Distribution Files\pubring.mix=No
+D:\Pi32\Distribution Files\README.PI=No
+D:\Pi32\Distribution Files\remailer.htm=No
+D:\Pi32\Distribution Files\RemailerURL.TXT=No
+D:\Pi32\Distribution Files\SIG.TXT=No
+D:\Pi32\Distribution Files\SubmitKeyAddr.TXT=No
+D:\Pi32\Distribution Files\type2.lis=No
+D:\Pi32\Distribution Files\URLS.TXT=No
+D:\Pi32\Distribution Files\USENET.txt=No
+D:\Pi32\Distribution Files\mailbox\_pitemp.tmp=No
+
+[Package|Private Idaho|Distribution]
+Type=single
+Size=
+Title=Private Idaho 32 (V 3.2.20)
+
+[Package|Private Idaho|IconGroups]
+Group0=Private Idaho 32
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|Private Idaho|Package]
+PackageFolder=D:\Pi32\Package
+ProjectFolder=D:\Pi32
+ServerSideCab=
+File1=D:\Pi32\Package\setup.exe
+File2=D:\Pi32\Package\Setup.Lst
+File3=D:\Pi32\Package\Pi32.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

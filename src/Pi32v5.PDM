@@ -1,0 +1,965 @@
+[Root]
+Most Recent Package=Private Idaho v537
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Development\Pi32v5\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+3=
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\Program Files\IPWorks V4\ActiveX Edition\lib\nntp40.ocx=
+C:\Sheridan\ActiveTreeView\SSTree.ocx=
+C:\WINNT\system32\mx40.ocx=
+D:\Development\Pi32v5\ShellLnk.dll=
+C:\WINNT\system32\imap40.ocx=
+C:\WINNT\system32\pop40.ocx=
+C:\WINNT\system32\mime40.ocx=
+C:\WINNT\system32\smtp40.ocx=
+C:\WINNT\system32\http40.ocx=
+C:\WINNT\system32\ipinfo40.ocx=
+C:\WINNT\system32\netcod40.ocx=
+C:\WINNT\system32\ipport40.ocx=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINNT\system32\scrrun.dll=
+
+[Package|Standard Setup Package 1|Files Added]
+D:\Development\Pi32v5\Distribution Files\USENET.txt=
+D:\Development\Pi32v5\Distribution Files\HelpText1.rtf=
+D:\Development\Pi32v5\Distribution Files\HelpText10.rtf=
+D:\Development\Pi32v5\Distribution Files\HelpText11.rtf=
+D:\Development\Pi32v5\Distribution Files\HelpText12.rtf=
+D:\Development\Pi32v5\Distribution Files\HelpText13.rtf=
+D:\Development\Pi32v5\Distribution Files\helptext14.rtf=
+D:\Development\Pi32v5\Distribution Files\HelpText15.rtf=
+D:\Development\Pi32v5\Distribution Files\helptext16.rtf=
+D:\Development\Pi32v5\Distribution Files\helptext17.rtf=
+D:\Development\Pi32v5\Distribution Files\helptext18.rtf=
+D:\Development\Pi32v5\Distribution Files\HelpText19.rtf=
+D:\Development\Pi32v5\Distribution Files\HelpText2.rtf=
+D:\Development\Pi32v5\Distribution Files\HelpText20.rtf=
+D:\Development\Pi32v5\Distribution Files\HelpText3.rtf=
+D:\Development\Pi32v5\Distribution Files\HelpText4.rtf=
+D:\Development\Pi32v5\Distribution Files\HelpText5.rtf=
+D:\Development\Pi32v5\Distribution Files\HelpText6.rtf=
+D:\Development\Pi32v5\Distribution Files\HelpText7.rtf=
+D:\Development\Pi32v5\Distribution Files\HelpText8.rtf=
+D:\Development\Pi32v5\Distribution Files\HelpText9.rtf=
+D:\Development\Pi32v5\Distribution Files\InfoURL.TXT=
+D:\Development\Pi32v5\Distribution Files\KeyServerURL.TXT=
+D:\Development\Pi32v5\Distribution Files\keysURL.TXT=
+D:\Development\Pi32v5\Distribution Files\MixListURL.TXT=
+D:\Development\Pi32v5\Distribution Files\mixmaster.htm=
+D:\Development\Pi32v5\Distribution Files\MixPubRingURL.TXT=
+D:\Development\Pi32v5\Distribution Files\MixType2URL.TXT=
+D:\Development\Pi32v5\Distribution Files\PI Version 5 Splash Screen.gif=
+D:\Development\Pi32v5\Distribution Files\PI32PostOffice.mdb=
+D:\Development\Pi32v5\Distribution Files\remailer.htm=
+D:\Development\Pi32v5\Distribution Files\remailer.txt=
+D:\Development\Pi32v5\Distribution Files\remailerStats.txt=
+D:\Development\Pi32v5\Distribution Files\SubmitKeyAddr.TXT=
+D:\Development\Pi32v5\Distribution Files\Uninst.isu=
+D:\Development\Pi32v5\Distribution Files\headers.txt=
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+D:\Development\PI32Upgrade\Distribution Files\pi32v5.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\Development\Pi32v5\APIGID32.DLL=Yes
+C:\WINNT\system32\spgp.dll=Yes
+C:\WINNT\system32\ipport40.ocx=Yes
+C:\WINNT\system32\netcod40.ocx=Yes
+C:\WINNT\system32\ipinfo40.ocx=Yes
+C:\WINNT\system32\http40.ocx=Yes
+C:\WINNT\system32\smtp40.ocx=Yes
+C:\WINNT\system32\mime40.ocx=Yes
+C:\WINNT\system32\pop40.ocx=Yes
+C:\WINNT\system32\scrrun.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT.DLL=Yes
+C:\WINNT\system32\imap40.ocx=Yes
+D:\Development\Pi32v5\ShellLnk.dll=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=Yes
+C:\WINNT\system32\msjet40.dll=Yes
+C:\WINNT\system32\msjter40.dll=Yes
+C:\WINNT\system32\msjint40.dll=Yes
+C:\WINNT\system32\vbajet32.dll=Yes
+C:\WINNT\system32\expsrv.dll=Yes
+C:\WINNT\system32\mswstr10.dll=Yes
+C:\WINNT\system32\mswdat10.dll=Yes
+C:\WINNT\system32\msrd2x40.dll=Yes
+C:\WINNT\system32\msrd3x40.dll=Yes
+C:\WINNT\system32\msrepl40.dll=Yes
+C:\WINNT\system32\msjtes40.dll=Yes
+C:\WINNT\system32\VB5DB.DLL=Yes
+C:\WINNT\system32\mx40.ocx=Yes
+C:\WINNT\system32\COMDLG32.OCX=Yes
+C:\WINNT\system32\MSFLXGRD.OCX=Yes
+C:\WINNT\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Sheridan\ActiveThreed\THREED20.OCX=Yes
+C:\Sheridan\ActiveTreeView\SSTree.ocx=Yes
+C:\Sheridan\ActiveThreed\SPLITTER.OCX=Yes
+C:\WINNT\system32\COMCTL32.OCX=Yes
+C:\WINNT\system32\TABCTL32.OCX=Yes
+C:\WINNT\system32\MSMASK32.OCX=Yes
+C:\Program Files\IPWorks V4\ActiveX Edition\lib\nntp40.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Development\Pi32v5\Distribution Files\USENET.txt=Yes
+D:\Development\Pi32v5\Distribution Files\HelpText1.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\HelpText10.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\HelpText11.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\HelpText12.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\HelpText13.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\helptext14.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\HelpText15.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\helptext16.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\helptext17.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\helptext18.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\HelpText19.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\HelpText2.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\HelpText20.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\HelpText3.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\HelpText4.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\HelpText5.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\HelpText6.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\HelpText7.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\HelpText8.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\HelpText9.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\InfoURL.TXT=Yes
+D:\Development\Pi32v5\Distribution Files\KeyServerURL.TXT=Yes
+D:\Development\Pi32v5\Distribution Files\keysURL.TXT=Yes
+D:\Development\Pi32v5\Distribution Files\MixListURL.TXT=Yes
+D:\Development\Pi32v5\Distribution Files\mixmaster.htm=Yes
+D:\Development\Pi32v5\Distribution Files\MixPubRingURL.TXT=Yes
+D:\Development\Pi32v5\Distribution Files\MixType2URL.TXT=Yes
+D:\Development\Pi32v5\Distribution Files\PI Version 5 Splash Screen.gif=Yes
+D:\Development\Pi32v5\Distribution Files\PI32PostOffice.mdb=Yes
+D:\Development\Pi32v5\Distribution Files\remailer.htm=Yes
+D:\Development\Pi32v5\Distribution Files\remailer.txt=Yes
+D:\Development\Pi32v5\Distribution Files\remailerStats.txt=Yes
+D:\Development\Pi32v5\Distribution Files\SubmitKeyAddr.TXT=Yes
+D:\Development\Pi32v5\Distribution Files\Uninst.isu=Yes
+D:\Development\Pi32v5\Distribution Files\headers.txt=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+D:\Development\PI32Upgrade\Distribution Files\pi32v5.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\Development\Pi32v5\APIGID32.DLL=$(WinSysPath)
+C:\WINNT\system32\spgp.dll=$(AppPath)
+C:\WINNT\system32\ipport40.ocx=$(WinSysPath)
+C:\WINNT\system32\netcod40.ocx=$(WinSysPath)
+C:\WINNT\system32\ipinfo40.ocx=$(WinSysPath)
+C:\WINNT\system32\http40.ocx=$(WinSysPath)
+C:\WINNT\system32\smtp40.ocx=$(WinSysPath)
+C:\WINNT\system32\mime40.ocx=$(WinSysPath)
+C:\WINNT\system32\pop40.ocx=$(WinSysPath)
+C:\WINNT\system32\scrrun.dll=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\imap40.ocx=$(WinSysPath)
+D:\Development\Pi32v5\ShellLnk.dll=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=$(MSDAOPath)
+C:\WINNT\system32\msjet40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjter40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjint40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\mswstr10.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\mswdat10.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrd2x40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrd3x40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrepl40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjtes40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINNT\system32\mx40.ocx=$(WinSysPath)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINNT\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINNT\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\Sheridan\ActiveThreed\THREED20.OCX=$(WinSysPath)
+C:\Sheridan\ActiveTreeView\SSTree.ocx=$(WinSysPath)
+C:\Sheridan\ActiveThreed\SPLITTER.OCX=$(WinSysPath)
+C:\WINNT\system32\COMCTL32.OCX=$(WinSysPath)
+C:\WINNT\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINNT\system32\MSMASK32.OCX=$(WinSysPath)
+C:\Program Files\IPWorks V4\ActiveX Edition\lib\nntp40.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Development\Pi32v5\Distribution Files\USENET.txt=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\HelpText1.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\HelpText10.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\HelpText11.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\HelpText12.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\HelpText13.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\helptext14.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\HelpText15.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\helptext16.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\helptext17.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\helptext18.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\HelpText19.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\HelpText2.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\HelpText20.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\HelpText3.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\HelpText4.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\HelpText5.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\HelpText6.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\HelpText7.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\HelpText8.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\HelpText9.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\InfoURL.TXT=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\KeyServerURL.TXT=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\keysURL.TXT=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\MixListURL.TXT=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\mixmaster.htm=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\MixPubRingURL.TXT=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\MixType2URL.TXT=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\PI Version 5 Splash Screen.gif=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\PI32PostOffice.mdb=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\remailer.htm=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\remailer.txt=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\remailerStats.txt=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\SubmitKeyAddr.TXT=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\Uninst.isu=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\headers.txt=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+D:\Development\PI32Upgrade\Distribution Files\pi32v5.exe=No
+C:\WINNT\system32\spgp.dll=No
+D:\Development\Pi32v5\Distribution Files\USENET.txt=No
+D:\Development\Pi32v5\Distribution Files\HelpText1.rtf=No
+D:\Development\Pi32v5\Distribution Files\HelpText10.rtf=No
+D:\Development\Pi32v5\Distribution Files\HelpText11.rtf=No
+D:\Development\Pi32v5\Distribution Files\HelpText12.rtf=No
+D:\Development\Pi32v5\Distribution Files\HelpText13.rtf=No
+D:\Development\Pi32v5\Distribution Files\helptext14.rtf=No
+D:\Development\Pi32v5\Distribution Files\HelpText15.rtf=No
+D:\Development\Pi32v5\Distribution Files\helptext16.rtf=No
+D:\Development\Pi32v5\Distribution Files\helptext17.rtf=No
+D:\Development\Pi32v5\Distribution Files\helptext18.rtf=No
+D:\Development\Pi32v5\Distribution Files\HelpText19.rtf=No
+D:\Development\Pi32v5\Distribution Files\HelpText2.rtf=No
+D:\Development\Pi32v5\Distribution Files\HelpText20.rtf=No
+D:\Development\Pi32v5\Distribution Files\HelpText3.rtf=No
+D:\Development\Pi32v5\Distribution Files\HelpText4.rtf=No
+D:\Development\Pi32v5\Distribution Files\HelpText5.rtf=No
+D:\Development\Pi32v5\Distribution Files\HelpText6.rtf=No
+D:\Development\Pi32v5\Distribution Files\HelpText7.rtf=No
+D:\Development\Pi32v5\Distribution Files\HelpText8.rtf=No
+D:\Development\Pi32v5\Distribution Files\HelpText9.rtf=No
+D:\Development\Pi32v5\Distribution Files\InfoURL.TXT=No
+D:\Development\Pi32v5\Distribution Files\KeyServerURL.TXT=No
+D:\Development\Pi32v5\Distribution Files\keysURL.TXT=No
+D:\Development\Pi32v5\Distribution Files\MixListURL.TXT=No
+D:\Development\Pi32v5\Distribution Files\mixmaster.htm=No
+D:\Development\Pi32v5\Distribution Files\MixPubRingURL.TXT=No
+D:\Development\Pi32v5\Distribution Files\MixType2URL.TXT=No
+D:\Development\Pi32v5\Distribution Files\PI Version 5 Splash Screen.gif=No
+D:\Development\Pi32v5\Distribution Files\PI32PostOffice.mdb=No
+D:\Development\Pi32v5\Distribution Files\remailer.htm=No
+D:\Development\Pi32v5\Distribution Files\remailer.txt=No
+D:\Development\Pi32v5\Distribution Files\remailerStats.txt=No
+D:\Development\Pi32v5\Distribution Files\SubmitKeyAddr.TXT=No
+D:\Development\Pi32v5\Distribution Files\Uninst.isu=No
+D:\Development\Pi32v5\Distribution Files\headers.txt=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Private Idaho 32 (Version 5)
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Private Idaho 32 (Version 5)
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Private Idaho 32 (Version 5)]
+Icon1=pi32v5.exe
+Title1=Private Idaho 32 (Version 5)
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=D:\Development\Pi32v5\Package
+ProjectFolder=D:\Development\Pi32v5
+ServerSideCab=
+File1=D:\Development\Pi32v5\Package\setup.exe
+File2=D:\Development\Pi32v5\Package\Setup.Lst
+File3=D:\Development\Pi32v5\Package\pi32v5.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Private Idaho v535|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Development\Pi32v5\Package
+
+[Package|Private Idaho v535|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Private Idaho v535|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Private Idaho v535|Files Found]
+
+[Package|Private Idaho v535|Files Released]
+3=
+
+[Package|Private Idaho v535|Missing Dependency Information]
+C:\Program Files\IPWorks V4\ActiveX Edition\lib\nntp40.ocx=
+C:\Sheridan\ActiveTreeView\SSTree.ocx=
+C:\WINNT\system32\mx40.ocx=
+D:\Development\Pi32v5\ShellLnk.dll=
+C:\WINNT\system32\imap40.ocx=
+C:\WINNT\system32\pop40.ocx=
+C:\WINNT\system32\mime40.ocx=
+C:\WINNT\system32\smtp40.ocx=
+C:\WINNT\system32\http40.ocx=
+C:\WINNT\system32\ipinfo40.ocx=
+C:\WINNT\system32\netcod40.ocx=
+C:\WINNT\system32\ipport40.ocx=
+
+[Package|Private Idaho v535|Out-of-Date Dependency Information]
+C:\WINNT\system32\scrrun.dll=
+
+[Package|Private Idaho v535|Files Added]
+d:\development\pi32v5\distribution files\usenet.txt=
+d:\development\pi32v5\distribution files\helptext1.rtf=
+d:\development\pi32v5\distribution files\helptext10.rtf=
+d:\development\pi32v5\distribution files\helptext11.rtf=
+d:\development\pi32v5\distribution files\helptext12.rtf=
+d:\development\pi32v5\distribution files\helptext13.rtf=
+d:\development\pi32v5\distribution files\helptext14.rtf=
+d:\development\pi32v5\distribution files\helptext15.rtf=
+d:\development\pi32v5\distribution files\helptext16.rtf=
+d:\development\pi32v5\distribution files\helptext17.rtf=
+d:\development\pi32v5\distribution files\helptext18.rtf=
+d:\development\pi32v5\distribution files\helptext19.rtf=
+d:\development\pi32v5\distribution files\helptext2.rtf=
+d:\development\pi32v5\distribution files\helptext20.rtf=
+d:\development\pi32v5\distribution files\helptext3.rtf=
+d:\development\pi32v5\distribution files\helptext4.rtf=
+d:\development\pi32v5\distribution files\helptext5.rtf=
+d:\development\pi32v5\distribution files\helptext6.rtf=
+d:\development\pi32v5\distribution files\helptext7.rtf=
+d:\development\pi32v5\distribution files\helptext8.rtf=
+d:\development\pi32v5\distribution files\helptext9.rtf=
+d:\development\pi32v5\distribution files\infourl.txt=
+d:\development\pi32v5\distribution files\keyserverurl.txt=
+d:\development\pi32v5\distribution files\keysurl.txt=
+d:\development\pi32v5\distribution files\mixlisturl.txt=
+d:\development\pi32v5\distribution files\mixmaster.htm=
+d:\development\pi32v5\distribution files\mixpubringurl.txt=
+d:\development\pi32v5\distribution files\mixtype2url.txt=
+d:\development\pi32v5\distribution files\pi version 5 splash screen.gif=
+d:\development\pi32v5\distribution files\pi32postoffice.mdb=
+d:\development\pi32v5\distribution files\remailer.htm=
+d:\development\pi32v5\distribution files\remailer.txt=
+d:\development\pi32v5\distribution files\remailerstats.txt=
+d:\development\pi32v5\distribution files\submitkeyaddr.txt=
+d:\development\pi32v5\distribution files\uninst.isu=
+d:\development\pi32v5\distribution files\headers.txt=
+
+[Package|Private Idaho v535|Files Removed]
+
+[Package|Private Idaho v535|Files In Project]
+D:\Development\PI32Upgrade\Distribution Files\pi32v5.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\Development\Pi32v5\APIGID32.DLL=Yes
+C:\WINNT\system32\spgp.dll=Yes
+C:\WINNT\system32\ipport40.ocx=Yes
+C:\WINNT\system32\netcod40.ocx=Yes
+C:\WINNT\system32\ipinfo40.ocx=Yes
+C:\WINNT\system32\http40.ocx=Yes
+C:\WINNT\system32\smtp40.ocx=Yes
+C:\WINNT\system32\mime40.ocx=Yes
+C:\WINNT\system32\pop40.ocx=Yes
+C:\WINNT\system32\scrrun.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT.DLL=Yes
+C:\WINNT\system32\imap40.ocx=Yes
+D:\Development\Pi32v5\ShellLnk.dll=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=Yes
+C:\WINNT\system32\msjet40.dll=Yes
+C:\WINNT\system32\msjter40.dll=Yes
+C:\WINNT\system32\msjint40.dll=Yes
+C:\WINNT\system32\vbajet32.dll=Yes
+C:\WINNT\system32\expsrv.dll=Yes
+C:\WINNT\system32\mswstr10.dll=Yes
+C:\WINNT\system32\mswdat10.dll=Yes
+C:\WINNT\system32\msrd2x40.dll=Yes
+C:\WINNT\system32\msrd3x40.dll=Yes
+C:\WINNT\system32\msrepl40.dll=Yes
+C:\WINNT\system32\msjtes40.dll=Yes
+C:\WINNT\system32\VB5DB.DLL=Yes
+C:\WINNT\system32\mx40.ocx=Yes
+C:\WINNT\system32\COMDLG32.OCX=Yes
+C:\WINNT\system32\MSFLXGRD.OCX=Yes
+C:\WINNT\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Sheridan\ActiveThreed\THREED20.OCX=Yes
+C:\Sheridan\ActiveTreeView\SSTree.ocx=Yes
+C:\Sheridan\ActiveThreed\SPLITTER.OCX=Yes
+C:\WINNT\system32\COMCTL32.OCX=Yes
+C:\WINNT\system32\TABCTL32.OCX=Yes
+C:\WINNT\system32\MSMASK32.OCX=Yes
+C:\Program Files\IPWorks V4\ActiveX Edition\lib\nntp40.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Development\Pi32v5\Distribution Files\USENET.txt=Yes
+D:\Development\Pi32v5\Distribution Files\HelpText1.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\HelpText10.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\HelpText11.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\HelpText12.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\HelpText13.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\helptext14.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\HelpText15.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\helptext16.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\helptext17.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\helptext18.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\HelpText19.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\HelpText2.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\HelpText20.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\HelpText3.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\HelpText4.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\HelpText5.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\HelpText6.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\HelpText7.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\HelpText8.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\HelpText9.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\InfoURL.TXT=Yes
+D:\Development\Pi32v5\Distribution Files\KeyServerURL.TXT=Yes
+D:\Development\Pi32v5\Distribution Files\keysURL.TXT=Yes
+D:\Development\Pi32v5\Distribution Files\MixListURL.TXT=Yes
+D:\Development\Pi32v5\Distribution Files\mixmaster.htm=Yes
+D:\Development\Pi32v5\Distribution Files\MixPubRingURL.TXT=Yes
+D:\Development\Pi32v5\Distribution Files\MixType2URL.TXT=Yes
+D:\Development\Pi32v5\Distribution Files\PI Version 5 Splash Screen.gif=Yes
+D:\Development\Pi32v5\Distribution Files\PI32PostOffice.mdb=Yes
+D:\Development\Pi32v5\Distribution Files\remailer.htm=Yes
+D:\Development\Pi32v5\Distribution Files\remailer.txt=Yes
+D:\Development\Pi32v5\Distribution Files\remailerStats.txt=Yes
+D:\Development\Pi32v5\Distribution Files\SubmitKeyAddr.TXT=Yes
+D:\Development\Pi32v5\Distribution Files\Uninst.isu=Yes
+D:\Development\Pi32v5\Distribution Files\headers.txt=Yes
+
+[Package|Private Idaho v535|Configure Registry Files]
+Applicable=No
+
+[Package|Private Idaho v535|Configure Remote Servers]
+Applicable=No
+
+[Package|Private Idaho v535|Install Locations]
+D:\Development\PI32Upgrade\Distribution Files\pi32v5.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\Development\Pi32v5\APIGID32.DLL=$(WinSysPath)
+C:\WINNT\system32\spgp.dll=$(AppPath)
+C:\WINNT\system32\ipport40.ocx=$(WinSysPath)
+C:\WINNT\system32\netcod40.ocx=$(WinSysPath)
+C:\WINNT\system32\ipinfo40.ocx=$(WinSysPath)
+C:\WINNT\system32\http40.ocx=$(WinSysPath)
+C:\WINNT\system32\smtp40.ocx=$(WinSysPath)
+C:\WINNT\system32\mime40.ocx=$(WinSysPath)
+C:\WINNT\system32\pop40.ocx=$(WinSysPath)
+C:\WINNT\system32\scrrun.dll=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\imap40.ocx=$(WinSysPath)
+D:\Development\Pi32v5\ShellLnk.dll=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=$(MSDAOPath)
+C:\WINNT\system32\msjet40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjter40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjint40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\mswstr10.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\mswdat10.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrd2x40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrd3x40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrepl40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjtes40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINNT\system32\mx40.ocx=$(WinSysPath)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINNT\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINNT\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\Sheridan\ActiveThreed\THREED20.OCX=$(WinSysPath)
+C:\Sheridan\ActiveTreeView\SSTree.ocx=$(WinSysPath)
+C:\Sheridan\ActiveThreed\SPLITTER.OCX=$(WinSysPath)
+C:\WINNT\system32\COMCTL32.OCX=$(WinSysPath)
+C:\WINNT\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINNT\system32\MSMASK32.OCX=$(WinSysPath)
+C:\Program Files\IPWorks V4\ActiveX Edition\lib\nntp40.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Development\Pi32v5\Distribution Files\USENET.txt=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\HelpText1.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\HelpText10.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\HelpText11.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\HelpText12.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\HelpText13.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\helptext14.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\HelpText15.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\helptext16.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\helptext17.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\helptext18.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\HelpText19.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\HelpText2.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\HelpText20.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\HelpText3.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\HelpText4.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\HelpText5.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\HelpText6.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\HelpText7.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\HelpText8.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\HelpText9.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\InfoURL.TXT=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\KeyServerURL.TXT=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\keysURL.TXT=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\MixListURL.TXT=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\mixmaster.htm=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\MixPubRingURL.TXT=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\MixType2URL.TXT=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\PI Version 5 Splash Screen.gif=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\PI32PostOffice.mdb=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\remailer.htm=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\remailer.txt=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\remailerStats.txt=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\SubmitKeyAddr.TXT=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\Uninst.isu=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\headers.txt=$(AppPath)
+
+[Package|Private Idaho v535|Configure Shared Files]
+Applicable=Yes
+D:\Development\PI32Upgrade\Distribution Files\pi32v5.exe=No
+C:\WINNT\system32\spgp.dll=No
+D:\Development\Pi32v5\Distribution Files\USENET.txt=No
+D:\Development\Pi32v5\Distribution Files\HelpText1.rtf=No
+D:\Development\Pi32v5\Distribution Files\HelpText10.rtf=No
+D:\Development\Pi32v5\Distribution Files\HelpText11.rtf=No
+D:\Development\Pi32v5\Distribution Files\HelpText12.rtf=No
+D:\Development\Pi32v5\Distribution Files\HelpText13.rtf=No
+D:\Development\Pi32v5\Distribution Files\helptext14.rtf=No
+D:\Development\Pi32v5\Distribution Files\HelpText15.rtf=No
+D:\Development\Pi32v5\Distribution Files\helptext16.rtf=No
+D:\Development\Pi32v5\Distribution Files\helptext17.rtf=No
+D:\Development\Pi32v5\Distribution Files\helptext18.rtf=No
+D:\Development\Pi32v5\Distribution Files\HelpText19.rtf=No
+D:\Development\Pi32v5\Distribution Files\HelpText2.rtf=No
+D:\Development\Pi32v5\Distribution Files\HelpText20.rtf=No
+D:\Development\Pi32v5\Distribution Files\HelpText3.rtf=No
+D:\Development\Pi32v5\Distribution Files\HelpText4.rtf=No
+D:\Development\Pi32v5\Distribution Files\HelpText5.rtf=No
+D:\Development\Pi32v5\Distribution Files\HelpText6.rtf=No
+D:\Development\Pi32v5\Distribution Files\HelpText7.rtf=No
+D:\Development\Pi32v5\Distribution Files\HelpText8.rtf=No
+D:\Development\Pi32v5\Distribution Files\HelpText9.rtf=No
+D:\Development\Pi32v5\Distribution Files\InfoURL.TXT=No
+D:\Development\Pi32v5\Distribution Files\KeyServerURL.TXT=No
+D:\Development\Pi32v5\Distribution Files\keysURL.TXT=No
+D:\Development\Pi32v5\Distribution Files\MixListURL.TXT=No
+D:\Development\Pi32v5\Distribution Files\mixmaster.htm=No
+D:\Development\Pi32v5\Distribution Files\MixPubRingURL.TXT=No
+D:\Development\Pi32v5\Distribution Files\MixType2URL.TXT=No
+D:\Development\Pi32v5\Distribution Files\PI Version 5 Splash Screen.gif=No
+D:\Development\Pi32v5\Distribution Files\PI32PostOffice.mdb=No
+D:\Development\Pi32v5\Distribution Files\remailer.htm=No
+D:\Development\Pi32v5\Distribution Files\remailer.txt=No
+D:\Development\Pi32v5\Distribution Files\remailerStats.txt=No
+D:\Development\Pi32v5\Distribution Files\SubmitKeyAddr.TXT=No
+D:\Development\Pi32v5\Distribution Files\Uninst.isu=No
+D:\Development\Pi32v5\Distribution Files\headers.txt=No
+
+[Package|Private Idaho v535|Distribution]
+Type=single
+Size=
+Title=Private Idaho 32 (Version 5)
+
+[Package|Private Idaho v535|Package]
+PackageFolder=D:\Development\Pi32v5\Package
+ProjectFolder=D:\Development\Pi32v5
+ServerSideCab=
+File1=D:\Development\Pi32v5\Package\setup.exe
+File2=D:\Development\Pi32v5\Package\Setup.Lst
+File3=D:\Development\Pi32v5\Package\pi32v5.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Private Idaho v535|IconGroups]
+Group0=Private Idaho 32 (Version 5)
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Private Idaho v535|Private Idaho 32 (Version 5)]
+Icon1=pi32v5.exe
+Title1=Private Idaho 32 (Version 5)
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Private Idaho v537|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Development\Pi32v5\Package
+
+[Package|Private Idaho v537|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Private Idaho v537|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Private Idaho v537|Files Found]
+
+[Package|Private Idaho v537|Files Released]
+3=
+
+[Package|Private Idaho v537|Missing Dependency Information]
+C:\Program Files\IPWorks V4\ActiveX Edition\lib\nntp40.ocx=
+C:\Sheridan\ActiveTreeView\SSTree.ocx=
+C:\WINNT\system32\mx40.ocx=
+D:\Development\Pi32v5\ShellLnk.dll=
+C:\WINNT\system32\imap40.ocx=
+C:\WINNT\system32\pop40.ocx=
+C:\WINNT\system32\mime40.ocx=
+C:\WINNT\system32\smtp40.ocx=
+C:\WINNT\system32\http40.ocx=
+C:\WINNT\system32\ipinfo40.ocx=
+C:\WINNT\system32\netcod40.ocx=
+C:\WINNT\system32\ipport40.ocx=
+
+[Package|Private Idaho v537|Out-of-Date Dependency Information]
+C:\WINNT\system32\scrrun.dll=
+
+[Package|Private Idaho v537|Files Added]
+d:\development\pi32v5\distribution files\usenet.txt=
+d:\development\pi32v5\distribution files\helptext1.rtf=
+d:\development\pi32v5\distribution files\helptext10.rtf=
+d:\development\pi32v5\distribution files\helptext11.rtf=
+d:\development\pi32v5\distribution files\helptext12.rtf=
+d:\development\pi32v5\distribution files\helptext13.rtf=
+d:\development\pi32v5\distribution files\helptext14.rtf=
+d:\development\pi32v5\distribution files\helptext15.rtf=
+d:\development\pi32v5\distribution files\helptext16.rtf=
+d:\development\pi32v5\distribution files\helptext17.rtf=
+d:\development\pi32v5\distribution files\helptext18.rtf=
+d:\development\pi32v5\distribution files\helptext19.rtf=
+d:\development\pi32v5\distribution files\helptext2.rtf=
+d:\development\pi32v5\distribution files\helptext20.rtf=
+d:\development\pi32v5\distribution files\helptext3.rtf=
+d:\development\pi32v5\distribution files\helptext4.rtf=
+d:\development\pi32v5\distribution files\helptext5.rtf=
+d:\development\pi32v5\distribution files\helptext6.rtf=
+d:\development\pi32v5\distribution files\helptext7.rtf=
+d:\development\pi32v5\distribution files\helptext8.rtf=
+d:\development\pi32v5\distribution files\helptext9.rtf=
+d:\development\pi32v5\distribution files\infourl.txt=
+d:\development\pi32v5\distribution files\keyserverurl.txt=
+d:\development\pi32v5\distribution files\keysurl.txt=
+d:\development\pi32v5\distribution files\mixlisturl.txt=
+d:\development\pi32v5\distribution files\mixmaster.htm=
+d:\development\pi32v5\distribution files\mixpubringurl.txt=
+d:\development\pi32v5\distribution files\mixtype2url.txt=
+d:\development\pi32v5\distribution files\pi version 5 splash screen.gif=
+d:\development\pi32v5\distribution files\pi32postoffice.mdb=
+d:\development\pi32v5\distribution files\remailer.htm=
+d:\development\pi32v5\distribution files\remailer.txt=
+d:\development\pi32v5\distribution files\remailerstats.txt=
+d:\development\pi32v5\distribution files\submitkeyaddr.txt=
+d:\development\pi32v5\distribution files\uninst.isu=
+d:\development\pi32v5\distribution files\headers.txt=
+
+[Package|Private Idaho v537|Files Removed]
+
+[Package|Private Idaho v537|Files In Project]
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\Development\Pi32v5\APIGID32.DLL=Yes
+C:\WINNT\system32\spgp.dll=Yes
+C:\WINNT\system32\ipport40.ocx=Yes
+C:\WINNT\system32\netcod40.ocx=Yes
+C:\WINNT\system32\ipinfo40.ocx=Yes
+C:\WINNT\system32\http40.ocx=Yes
+C:\WINNT\system32\smtp40.ocx=Yes
+C:\WINNT\system32\mime40.ocx=Yes
+C:\WINNT\system32\pop40.ocx=Yes
+C:\WINNT\system32\scrrun.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT.DLL=Yes
+C:\WINNT\system32\imap40.ocx=Yes
+D:\Development\Pi32v5\ShellLnk.dll=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=Yes
+C:\WINNT\system32\msjet40.dll=Yes
+C:\WINNT\system32\msjter40.dll=Yes
+C:\WINNT\system32\msjint40.dll=Yes
+C:\WINNT\system32\vbajet32.dll=Yes
+C:\WINNT\system32\expsrv.dll=Yes
+C:\WINNT\system32\mswstr10.dll=Yes
+C:\WINNT\system32\mswdat10.dll=Yes
+C:\WINNT\system32\msrd2x40.dll=Yes
+C:\WINNT\system32\msrd3x40.dll=Yes
+C:\WINNT\system32\msrepl40.dll=Yes
+C:\WINNT\system32\msjtes40.dll=Yes
+C:\WINNT\system32\VB5DB.DLL=Yes
+C:\WINNT\system32\mx40.ocx=Yes
+C:\WINNT\system32\COMDLG32.OCX=Yes
+C:\WINNT\system32\MSFLXGRD.OCX=Yes
+C:\WINNT\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Sheridan\ActiveThreed\THREED20.OCX=Yes
+C:\Sheridan\ActiveTreeView\SSTree.ocx=Yes
+C:\Sheridan\ActiveThreed\SPLITTER.OCX=Yes
+C:\WINNT\system32\COMCTL32.OCX=Yes
+C:\WINNT\system32\TABCTL32.OCX=Yes
+C:\WINNT\system32\MSMASK32.OCX=Yes
+C:\Program Files\IPWorks V4\ActiveX Edition\lib\nntp40.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Development\Pi32v5\Distribution Files\USENET.txt=Yes
+D:\Development\Pi32v5\Distribution Files\HelpText1.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\HelpText10.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\HelpText11.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\HelpText12.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\HelpText13.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\helptext14.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\HelpText15.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\helptext16.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\helptext17.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\helptext18.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\HelpText19.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\HelpText2.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\HelpText20.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\HelpText3.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\HelpText4.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\HelpText5.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\HelpText6.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\HelpText7.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\HelpText8.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\HelpText9.rtf=Yes
+D:\Development\Pi32v5\Distribution Files\InfoURL.TXT=Yes
+D:\Development\Pi32v5\Distribution Files\KeyServerURL.TXT=Yes
+D:\Development\Pi32v5\Distribution Files\keysURL.TXT=Yes
+D:\Development\Pi32v5\Distribution Files\MixListURL.TXT=Yes
+D:\Development\Pi32v5\Distribution Files\mixmaster.htm=Yes
+D:\Development\Pi32v5\Distribution Files\MixPubRingURL.TXT=Yes
+D:\Development\Pi32v5\Distribution Files\MixType2URL.TXT=Yes
+D:\Development\Pi32v5\Distribution Files\PI Version 5 Splash Screen.gif=Yes
+D:\Development\Pi32v5\Distribution Files\PI32PostOffice.mdb=Yes
+D:\Development\Pi32v5\Distribution Files\remailer.htm=Yes
+D:\Development\Pi32v5\Distribution Files\remailer.txt=Yes
+D:\Development\Pi32v5\Distribution Files\remailerStats.txt=Yes
+D:\Development\Pi32v5\Distribution Files\SubmitKeyAddr.TXT=Yes
+D:\Development\Pi32v5\Distribution Files\Uninst.isu=Yes
+D:\Development\Pi32v5\Distribution Files\headers.txt=Yes
+D:\Development\Pi32v5\pi32v5.exe=Yes
+
+[Package|Private Idaho v537|Configure Registry Files]
+Applicable=No
+
+[Package|Private Idaho v537|Configure Remote Servers]
+Applicable=No
+
+[Package|Private Idaho v537|Install Locations]
+D:\Development\PI32Upgrade\Distribution Files\pi32v5.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\Development\Pi32v5\APIGID32.DLL=$(WinSysPath)
+C:\WINNT\system32\spgp.dll=$(AppPath)
+C:\WINNT\system32\ipport40.ocx=$(WinSysPath)
+C:\WINNT\system32\netcod40.ocx=$(WinSysPath)
+C:\WINNT\system32\ipinfo40.ocx=$(WinSysPath)
+C:\WINNT\system32\http40.ocx=$(WinSysPath)
+C:\WINNT\system32\smtp40.ocx=$(WinSysPath)
+C:\WINNT\system32\mime40.ocx=$(WinSysPath)
+C:\WINNT\system32\pop40.ocx=$(WinSysPath)
+C:\WINNT\system32\scrrun.dll=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\imap40.ocx=$(WinSysPath)
+D:\Development\Pi32v5\ShellLnk.dll=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=$(MSDAOPath)
+C:\WINNT\system32\msjet40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjter40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjint40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\mswstr10.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\mswdat10.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrd2x40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrd3x40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrepl40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjtes40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINNT\system32\mx40.ocx=$(WinSysPath)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINNT\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINNT\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\Sheridan\ActiveThreed\THREED20.OCX=$(WinSysPath)
+C:\Sheridan\ActiveTreeView\SSTree.ocx=$(WinSysPath)
+C:\Sheridan\ActiveThreed\SPLITTER.OCX=$(WinSysPath)
+C:\WINNT\system32\COMCTL32.OCX=$(WinSysPath)
+C:\WINNT\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINNT\system32\MSMASK32.OCX=$(WinSysPath)
+C:\Program Files\IPWorks V4\ActiveX Edition\lib\nntp40.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Development\Pi32v5\Distribution Files\USENET.txt=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\HelpText1.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\HelpText10.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\HelpText11.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\HelpText12.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\HelpText13.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\helptext14.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\HelpText15.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\helptext16.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\helptext17.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\helptext18.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\HelpText19.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\HelpText2.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\HelpText20.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\HelpText3.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\HelpText4.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\HelpText5.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\HelpText6.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\HelpText7.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\HelpText8.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\HelpText9.rtf=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\InfoURL.TXT=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\KeyServerURL.TXT=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\keysURL.TXT=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\MixListURL.TXT=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\mixmaster.htm=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\MixPubRingURL.TXT=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\MixType2URL.TXT=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\PI Version 5 Splash Screen.gif=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\PI32PostOffice.mdb=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\remailer.htm=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\remailer.txt=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\remailerStats.txt=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\SubmitKeyAddr.TXT=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\Uninst.isu=$(AppPath)
+D:\Development\Pi32v5\Distribution Files\headers.txt=$(AppPath)
+D:\Development\Pi32v5\pi32v5.exe=$(AppPath)
+
+[Package|Private Idaho v537|Configure Shared Files]
+Applicable=Yes
+D:\Development\PI32Upgrade\Distribution Files\pi32v5.exe=No
+C:\WINNT\system32\spgp.dll=No
+D:\Development\Pi32v5\Distribution Files\USENET.txt=No
+D:\Development\Pi32v5\Distribution Files\HelpText1.rtf=No
+D:\Development\Pi32v5\Distribution Files\HelpText10.rtf=No
+D:\Development\Pi32v5\Distribution Files\HelpText11.rtf=No
+D:\Development\Pi32v5\Distribution Files\HelpText12.rtf=No
+D:\Development\Pi32v5\Distribution Files\HelpText13.rtf=No
+D:\Development\Pi32v5\Distribution Files\helptext14.rtf=No
+D:\Development\Pi32v5\Distribution Files\HelpText15.rtf=No
+D:\Development\Pi32v5\Distribution Files\helptext16.rtf=No
+D:\Development\Pi32v5\Distribution Files\helptext17.rtf=No
+D:\Development\Pi32v5\Distribution Files\helptext18.rtf=No
+D:\Development\Pi32v5\Distribution Files\HelpText19.rtf=No
+D:\Development\Pi32v5\Distribution Files\HelpText2.rtf=No
+D:\Development\Pi32v5\Distribution Files\HelpText20.rtf=No
+D:\Development\Pi32v5\Distribution Files\HelpText3.rtf=No
+D:\Development\Pi32v5\Distribution Files\HelpText4.rtf=No
+D:\Development\Pi32v5\Distribution Files\HelpText5.rtf=No
+D:\Development\Pi32v5\Distribution Files\HelpText6.rtf=No
+D:\Development\Pi32v5\Distribution Files\HelpText7.rtf=No
+D:\Development\Pi32v5\Distribution Files\HelpText8.rtf=No
+D:\Development\Pi32v5\Distribution Files\HelpText9.rtf=No
+D:\Development\Pi32v5\Distribution Files\InfoURL.TXT=No
+D:\Development\Pi32v5\Distribution Files\KeyServerURL.TXT=No
+D:\Development\Pi32v5\Distribution Files\keysURL.TXT=No
+D:\Development\Pi32v5\Distribution Files\MixListURL.TXT=No
+D:\Development\Pi32v5\Distribution Files\mixmaster.htm=No
+D:\Development\Pi32v5\Distribution Files\MixPubRingURL.TXT=No
+D:\Development\Pi32v5\Distribution Files\MixType2URL.TXT=No
+D:\Development\Pi32v5\Distribution Files\PI Version 5 Splash Screen.gif=No
+D:\Development\Pi32v5\Distribution Files\PI32PostOffice.mdb=No
+D:\Development\Pi32v5\Distribution Files\remailer.htm=No
+D:\Development\Pi32v5\Distribution Files\remailer.txt=No
+D:\Development\Pi32v5\Distribution Files\remailerStats.txt=No
+D:\Development\Pi32v5\Distribution Files\SubmitKeyAddr.TXT=No
+D:\Development\Pi32v5\Distribution Files\Uninst.isu=No
+D:\Development\Pi32v5\Distribution Files\headers.txt=No
+D:\Development\Pi32v5\pi32v5.exe=No
+
+[Package|Private Idaho v537|Distribution]
+Type=single
+Size=
+Title=Private Idaho 32 (Version 5)
+
+[Package|Private Idaho v537|Package]
+PackageFolder=D:\Development\Pi32v5\Package
+ProjectFolder=D:\Development\Pi32v5
+ServerSideCab=
+File1=D:\Development\Pi32v5\Package\setup.exe
+File2=D:\Development\Pi32v5\Package\Setup.Lst
+File3=D:\Development\Pi32v5\Package\pi32v5.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Private Idaho v537|IconGroups]
+Group0=Private Idaho 32 (Version 5)
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Private Idaho v537|Private Idaho 32 (Version 5)]
+Icon1=pi32v5.exe
+Title1=Private Idaho 32 (Version 5)
+StartIn1=$(AppPath)
+Key1=Icon1

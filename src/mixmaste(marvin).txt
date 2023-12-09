@@ -1,0 +1,118 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+             "http://www.w3.org/TR/REC-html40/loose.dtd">
+<HTML><HEAD><TITLE>Type-II (Mixmaster) Remailer List</TITLE>
+<STYLE type="text/css">
+<!--
+BODY { background-color: #ffffff;
+       color: #000000 }
+A:link { color: #0b440b }
+A:active { color: #ffff0b }
+A:visited { color: #5b445b }
+H1,H2,H3,H4,H5,H6 { color: #5b445b }
+.nav { text-align: center; color: #0b220b }
+TD { text-align: right }
+TH { color: #e0e0f0; background-color: #211c32 }
+CAPTION { font-style: italic }
+.warning { background-color: #ffff40 }
+.error { background-color: #ff4040; color: white }
+-->
+</STYLE>
+
+<META name="keywords"
+      content="anonymous, anonymity, remailers, encrypted, encryption, PGP, Mixmaster, reliability, latency, keys">
+	<base href="http://anon.efga.org/Remailers/TypeIIList/">
+</HEAD><BODY>
+<DIV align="center">
+<P class="nav">
+<IMG src="/images/Logo" alt="anon.efga.org"
+     width="506" height="99">
+<BR>Brought to you by
+  <A HREF="http://www.efga.org/">Electronic Frontiers Georgia</A>
+<P class="warning">
+These pages are under heavy development.
+You might have better luck at the regular
+<A href="http://anon.efga.org/">anon.efga.org</A>
+web pages.
+</DIV>
+<H2>Type-II (Mixmaster) Remailer List</H2>
+The keys for these remailers are in
+<A HREF="type2.list">type2.list</A> and
+<A HREF="pubring.mix">pubring.mix</A> (you need both).
+These were last modified
+1999/05/10.
+<PRE>
+NOTICE: The anon.efga.org web site is being reorganized. As a result,
+some of your client settings will change. Please review the new settings
+at: http://anon.efga.org:8080/Remailers/Settings   These settings should
+work now and in the future.
+
+This list and other information is available by fingering @anon.efga.org
+and at http://anon.efga.org/Remailers.  It is also posted to USENET
+daily in alt.privacy.anon-server. If this list is older than one day, it
+is probably too old; please obtain a fresh copy from one of the above
+places.
+
+Need a reason to use remailers? Read this:
+http://www.europarl.eu.int/dg4/stoa/en/publi/166499/execsum.htm
+
+US exports crypto export and wiretap policies! Read this:
+http://www.crypto.com/reuters/show.cgi?article=912708583
+http://www.wired.com/news/news/politics/story/16588.html
+
+Last update: Sun 5 Sep 99 7:20:42 EDT
+mixmaster           history  latency  uptime
+--------------------------------------------
+privacy        ----..-..--- 11:30:24  99.99%
+bpm            --+--++---++  2:09:11  99.95%
+swiss          ++++++++++++    26:45  99.93%
+lcs            --+++-- ++-   1:31:39  99.46%
+replay         ****- +* *+*     5:24  99.38%
+hr13           - .-__..+--   5:44:20  99.16%
+cilla          - --  -._-+   4:54:34  99.01%
+squirrel       -  -.-------  2:44:31  98.81%
+passthru       +--- .-.-+-   2:24:49  98.79%
+mix            ______--+*-- 30:51:53  98.61%
+teatwo         . ----.-.-   13:14:08  93.70%
+mccain         .-- ----- -   9:33:17  93.38%
+doom           --    .--  +  8:03:24  84.80%
+nowhere        *+       -    5:58:55  80.19%
+nitemare       **   ..-+    11:35:42  77.53%
+widow          ---++--      14:12:52  71.14%
+canuck                       3:43:26  33.51%
+reject         ****          2:43:24  21.66%
+mid                         28:11:11   0.00%
+cripto                         26:25   0.00%
+marvin		*******		23.98 23.00%
+
+</PRE>
+<H3>History key</H3>
+
+<UL>
+<LI><TT>#</TT> response in less than 5 minutes.
+<LI><TT>*</TT> response in less than 1 hour.
+<LI><TT>+</TT> response in less than 4 hours.
+<LI><TT>-</TT> response in less than 24 hours.
+<LI><TT>.</TT> response in less than 2 days.
+<LI><TT>_</TT> response in more than 2 days.
+</UL>
+
+
+<P class="nav">
+<A HREF="/">Home</A> |
+<A HREF="/Tools">Privacy&nbsp;Tools</A> |
+<A HREF="/Remailers">Anonymous Remailers</A> |
+<A HREF="/Downloads">Downloads</A> |
+<A HREF="/OtherSites">Other&nbsp;Sites</A> |
+<A HREF="/Contribute">Contribute</A>
+<BR>
+<I>Last Modified: 
+Dec 12, 1998 3:46 am
+<BR>
+Today's date: 
+Sep 5, 1999 7:24 am
+<BR>
+This page administered by 
+<A HREF="mailto:andy@efga.org?subject=Type-II (Mixmaster) Remailer List">Webmaster</A>
+</I>
+</P>
+</BODY></HTML>

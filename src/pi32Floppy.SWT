@@ -1,0 +1,152 @@
+[Setup Wizard Template]
+TemplateDate=31/12/97 21:03:34
+
+[Select Project and Options]
+txtProjFile=d:\Pi32\Pi32.vbp
+chkProjRebuild=0
+optBldSetup=True
+chkIncludeDEP=1
+optInternet=False
+optDEPOnly=False
+
+[Distribution Method]
+optFloppyTarg=False
+optSingleDirTarg=False
+optMultDirTarg=True
+
+[Multiple Directories]
+cboFloppyDrives=0
+cboFloppyDriveSize=0
+txtDirTarget=C:\TEMP\SWSETUP\
+
+[Internet Package]
+optRemoteSite=True
+optLocalSite=False
+txtLocalSite=
+
+[Data Access]
+chkUseJet=1
+chkUseODBC=0
+Isam0=dBase 5.0
+Isam1=dBase III
+Isam2=dBase IV
+Isam3=Excel 3.0
+Isam4=Excel 4.0
+Isam5=Excel 5.0
+Isam6=Excel 8.0
+Isam7=FoxPro 2.0
+Isam8=FoxPro 2.5
+Isam9=FoxPro 2.6
+Isam10=FoxPro 3.0
+Isam11=FoxPro DBC
+Isam12=HTML Export
+Isam13=HTML Import
+Isam14=Jet 2.x
+Isam15=Lotus WK1
+Isam16=Lotus WK3
+Isam17=Lotus WK4
+Isam18=Paradox 3.X
+Isam19=Paradox 4.X
+Isam20=Paradox 5.X
+Isam21=Text
+Isam22=
+dBase 5.0=False
+dBase III=False
+dBase IV=False
+Excel 3.0=False
+Excel 4.0=False
+Excel 5.0=False
+Excel 8.0=False
+FoxPro 2.0=False
+FoxPro 2.5=False
+FoxPro 2.6=False
+FoxPro 3.0=False
+FoxPro DBC=False
+HTML Export=False
+HTML Import=False
+Jet 2.x=False
+Lotus WK1=False
+Lotus WK3=False
+Lotus WK4=False
+Paradox 3.X=False
+Paradox 4.X=False
+Paradox 5.X=False
+Text=False
+
+[ActiveX Server Components]
+File1=
+
+[Confirm Dependencies]
+File1="C:\WINNT\system32\SMTP32.OCX",True,32764
+File2="C:\WINNT\system32\HTTP32.OCX",True,32764
+File3="C:\WINNT\system32\NETCOD32.OCX",True,32764
+File4="C:\WINNT\system32\POP32.OCX",True,32764
+File5="C:\WINNT\system32\NNTP32.OCX",True,32764
+File6="C:\WINNT\system32\IPPORT32.OCX",True,32764
+File7="C:\WINNT\system32\COMDLG32.OCX",True,32764
+File8="C:\WINNT\system32\IPINFO32.OCX",True,32764
+File9="C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL",True,32763
+File10="C:\WINNT\system32\MSFLXGRD.OCX",True,32764
+File11="C:\WINNT\system32\RICHTX32.OCX",True,32764
+File12="C:\WINNT\system32\comctl32.ocx",True,32764
+File13="C:\WINNT\system32\THREED32.OCX",True,32764
+File14=
+
+[Shared ActiveX Application]
+optDeployApplication=True
+optDeployShared=False
+optRemoteServer1=True
+optRemoteServer0=False
+
+[File Summary]
+File1="C:\WINNT\System32\MSVBVM50.dll",True,"$(WinSysPathSysFile)",$(DLLSelfRegister),False
+File2="C:\Program Files\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\StdOle2.tlb",True,"$(WinSysPathSysFile)",$(TLBRegister),False
+File3="C:\Program Files\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\OleAut32.dll",True,"$(WinSysPathSysFile)",$(DLLSelfRegister),False
+File4="C:\Program Files\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\OlePro32.dll",True,"$(WinSysPathSysFile)",$(DLLSelfRegister),False
+File5="C:\Program Files\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\AsycFilt.dll",True,"$(WinSysPathSysFile)",,False
+File6="C:\Program Files\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\Ctl3d32.dll",True,"$(WinSysPathSysFile)",,False
+File7="C:\Program Files\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\ComCat.dll",True,"$(WinSysPathSysFile)",$(DLLSelfRegister),False
+File8="C:\WINNT\system32\SMTP32.OCX",True,"$(WinSysPath)",$(DLLSelfRegister),True
+File9="C:\WINNT\system32\HTTP32.OCX",True,"$(WinSysPath)",$(DLLSelfRegister),True
+File10="C:\WINNT\system32\NETCOD32.OCX",True,"$(WinSysPath)",$(DLLSelfRegister),True
+File11="C:\WINNT\system32\POP32.OCX",True,"$(winSysPath)",$(DLLSelfRegister),True
+File12="C:\WINNT\system32\NNTP32.OCX",True,"$(WinSysPath)",$(DLLSelfRegister),True
+File13="C:\WINNT\system32\IPPORT32.OCX",True,"$(winSysPath)",$(DLLSelfRegister),True
+File14="C:\WINNT\system32\COMDLG32.OCX",True,"$(WinSysPath)",$(DLLSelfRegister),True
+File15="C:\WINNT\system32\IPINFO32.OCX",True,"$(WinSysPath)",$(DLLSelfRegister),True
+File16="C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL",True,"$(MSDAOPath)",$(DLLSelfRegister),True
+File17="C:\WINNT\System32\MSJtEr35.dll",True,"$(WinSysPathSysFile)",,False
+File18="C:\WINNT\System32\MSJInt35.dll",True,"$(WinSysPathSysFile)",,False
+File19="C:\Program Files\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\MSVCRT40.dll",True,"$(WinSysPathSysFile)",,False
+File20="C:\WINNT\system32\MSFLXGRD.OCX",True,"$(WinSysPath)",$(DLLSelfRegister),True
+File21="C:\WINNT\system32\RICHTX32.OCX",True,"$(WinSysPath)",$(DLLSelfRegister),True
+File22="C:\Program Files\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\RichEd32.dll",True,"$(WinSysPathSysFile)",,False
+File23="C:\WINNT\system32\comctl32.ocx",True,"$(WinSysPath)",$(DLLSelfRegister),True
+File24="C:\WINNT\system32\THREED32.OCX",True,"$(WinSysPath)",$(DLLSelfRegister),True
+File25="C:\Program Files\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\MFC40.dll",True,"$(WinSysPathSysFile)",$(DLLSelfRegister),False
+File26="C:\WINNT\System32\MSJet35.dll",True,"$(WinSysPathSysFile)",$(DLLSelfRegister),False
+File27="C:\WINNT\System32\VBAJet32.dll",True,"$(WinSysPathSysFile)",,False
+File28="C:\WINNT\System32\VB5DB.dll",True,"$(WinSysPath)",,True
+File29="C:\WINNT\System32\MSRD2x35.dll",True,"$(WinSysPathSysFile)",$(DLLSelfRegister),False
+File30="C:\WINNT\System32\MsRepl35.dll",True,"$(WinSysPathSysFile)",,False
+File31="C:\WINNT\System32\ODBCJt32.dll",True,"$(WinSysPathSysFile)",,False
+File32="C:\WINNT\System32\ODBCJI32.dll",True,"$(WinSysPathSysFile)",,False
+File33="C:\WINNT\System32\ODBCTL32.dll",True,"$(WinSysPathSysFile)",,False
+File34="d:\Pi32\Pi32.exe",True,"$(AppPath)",,False
+File35="d:\Pi32\Pi32.DEP",True,"$(AppPath)",,False
+File36="C:\WINNT\System32\MFCans32.dll",True,"$(winSysPath)",,True
+File37="C:\WINNT\System32\oc30.dll",True,"$(winSysPath)",,True
+File38="C:\Program Files\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\msvcrt20.dll",True,"$(WinSysPathSysFile)",,False
+File39="d:\Pi32\remailer.txt",False,"$(AppPath)",,False
+File40="d:\Pi32\EMAIL.MDB",True,"$(AppPath)",,False
+File41="d:\Pi32\INTRO.TXT",False,"$(AppPath)",,False
+File42="d:\Pi32\nymkeys.txt",True,"$(AppPath)",,False
+File43="d:\Pi32\NYMS.TXT",True,"$(AppPath)",,False
+File44="d:\Pi32\PUBKEYS.OUT",False,"$(AppPath)",,False
+File45="d:\Pi32\remailer.htm",True,"$(AppPath)",,False
+File46="d:\Pi32\remailer.old",False,"$(AppPath)",,False
+File47="d:\Pi32\EMAIL.LDB",True,"$(AppPath)",,False
+File48="d:\Pi32\SYSTEM.MDA",True,"$(AppPath)",,False
+File49="d:\Pi32\mailbox\_pitemp.tmp",True,"$(AppPath)\mailbox",,False
+File50="d:\Pi32\URLS.TXT",True,"$(AppPath)",,False
+File51="d:\Pi32\EMAIL.TXT",True,"$(AppPath)",,False

@@ -1,0 +1,534 @@
+[Root]
+Most Recent Package=PI Version 4
+Most Recent Deploy=Folder Deployment 1
+
+[Deploy|Folder Deployment 1|Root]
+Package=PI Version 4
+Handler=PDWizard.FolderDplySubWiz
+Folder=C:\junk
+
+
+[Package|PI Version 4 DEP|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=D:\Pi32v4
+
+[Package|PI Version 4 DEP|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=No
+Excel=No
+Text=No
+Jet 2.x=Yes
+Lotus=No
+Paradox=No
+
+[Package|PI Version 4 DEP|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|PI Version 4 DEP|Files Found]
+
+[Package|PI Version 4 DEP|Files Released]
+address.txt=
+urls.txt=
+sig.txt=
+remailerurl.txt=
+nymkeys.txt=
+email.txt=
+
+[Package|PI Version 4 DEP|Missing Dependency Information]
+C:\Program Files\IPWorks V4\ActiveX Edition\lib\pop40.ocx=
+C:\WINNT\system32\FileIconImageList.ocx=
+C:\Program Files\IPWorks V4\ActiveX Edition\lib\mime40.ocx=
+C:\Program Files\IPWorks V4\ActiveX Edition\lib\nntp40.ocx=
+C:\Program Files\IPWorks V4\ActiveX Edition\lib\smtp40.ocx=
+C:\Program Files\IPWorks V4\ActiveX Edition\lib\http40.ocx=
+C:\Program Files\IPWorks V4\ActiveX Edition\lib\ipinfo40.ocx=
+C:\Program Files\IPWorks V4\ActiveX Edition\lib\netcod40.ocx=
+C:\Program Files\IPWorks V4\ActiveX Edition\lib\ipport40.ocx=
+C:\Sheridan\ActiveTreeView\SSTree.ocx=
+
+[Package|PI Version 4 DEP|Out-of-Date Dependency Information]
+
+[Package|PI Version 4 DEP|Files Added]
+d:\pi32v4\distribution files\keyserverurl.txt=
+d:\pi32v4\distribution files\headers.txt=
+d:\pi32v4\distribution files\hello.txt=
+d:\pi32v4\distribution files\infourl.txt=
+d:\pi32v4\distribution files\mixlisturl.txt=
+d:\pi32v4\distribution files\mixmaster.htm=
+d:\pi32v4\distribution files\mixpubringurl.txt=
+d:\pi32v4\distribution files\mixtype2url.txt=
+d:\pi32v4\distribution files\keysurl.txt=
+d:\pi32v4\distribution files\type2.lis=
+d:\pi32v4\distribution files\pubring.mix=
+d:\pi32v4\distribution files\remailer.htm=
+d:\pi32v4\distribution files\submitkeyaddr.txt=
+d:\pi32v4\distribution files\pi32postoffice.mdb=
+d:\pi32v4\distribution files\usenet.txt=
+
+[Package|PI Version 4 DEP|Files Removed]
+
+[Package|PI Version 4 DEP|Files In Project]
+D:\Pi32v4\pi32v4.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\WINNT\system32\OLEAUT32.DLL=Yes
+C:\WINNT\system32\OLEPRO32.DLL=Yes
+C:\WINNT\system32\ASYCFILT.DLL=Yes
+C:\WINNT\system32\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\APIGID32.DLL=Yes
+C:\WINNT\system32\spgp.dll=Yes
+C:\WINNT\system32\COMDLG32.OCX=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINNT\system32\msjet35.dll=Yes
+C:\WINNT\system32\MSJTER35.DLL=Yes
+C:\WINNT\system32\MSJINT35.DLL=Yes
+C:\WINNT\system32\VBAJET32.DLL=Yes
+C:\WINNT\system32\EXPSRV.DLL=Yes
+C:\WINNT\system32\MSRD2X35.DLL=Yes
+C:\WINNT\system32\msrepl35.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINNT\system32\VB5DB.DLL=Yes
+C:\WINNT\system32\MSFLXGRD.OCX=Yes
+C:\WINNT\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINNT\system32\Threed20.ocx=Yes
+C:\WINNT\system32\MSVCRT.DLL=Yes
+C:\Sheridan\ActiveTreeView\SSTree.ocx=Yes
+C:\Sheridan\ActiveThreed\SPLITTER.OCX=Yes
+C:\WINNT\system32\COMCTL32.OCX=Yes
+C:\WINNT\system32\TABCTL32.OCX=Yes
+C:\Program Files\IPWorks V4\ActiveX Edition\lib\ipport40.ocx=Yes
+C:\Program Files\IPWorks V4\ActiveX Edition\lib\netcod40.ocx=Yes
+C:\Program Files\IPWorks V4\ActiveX Edition\lib\ipinfo40.ocx=Yes
+C:\Program Files\IPWorks V4\ActiveX Edition\lib\http40.ocx=Yes
+C:\Program Files\IPWorks V4\ActiveX Edition\lib\smtp40.ocx=Yes
+C:\Program Files\IPWorks V4\ActiveX Edition\lib\nntp40.ocx=Yes
+C:\Program Files\IPWorks V4\ActiveX Edition\lib\mime40.ocx=Yes
+C:\WINNT\system32\FileIconImageList.ocx=Yes
+C:\Program Files\IPWorks V4\ActiveX Edition\lib\pop40.ocx=Yes
+C:\WINNT\system32\MSMASK32.OCX=Yes
+D:\Pi32v4\Distribution Files\KeyServerURL.TXT=Yes
+D:\Pi32v4\Distribution Files\headers.txt=Yes
+D:\Pi32v4\Distribution Files\hello.txt=Yes
+D:\Pi32v4\Distribution Files\InfoURL.TXT=Yes
+D:\Pi32v4\Distribution Files\MixListURL.TXT=Yes
+D:\Pi32v4\Distribution Files\mixmaster.htm=Yes
+D:\Pi32v4\Distribution Files\MixPubRingURL.TXT=Yes
+D:\Pi32v4\Distribution Files\MixType2URL.TXT=Yes
+D:\Pi32v4\Distribution Files\keysURL.TXT=Yes
+D:\Pi32v4\Distribution Files\type2.lis=Yes
+D:\Pi32v4\Distribution Files\pubring.mix=Yes
+D:\Pi32v4\Distribution Files\remailer.htm=Yes
+D:\Pi32v4\Distribution Files\SubmitKeyAddr.TXT=Yes
+D:\Pi32v4\Distribution Files\PI32PostOffice.mdb=Yes
+D:\Pi32v4\Distribution Files\USENET.txt=Yes
+
+[Package|PI Version 4 DEP|Configure Registry Files]
+Applicable=No
+
+[Package|PI Version 4 DEP|Configure Remote Servers]
+Applicable=No
+
+[Package|PI Version 4 DEP|Install Locations]
+D:\Pi32v4\pi32v4.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\APIGID32.DLL=$(WinSysPath)
+C:\WINNT\system32\spgp.dll=$(WinSysPath)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINNT\system32\msjet35.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\VBAJET32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\EXPSRV.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\msrepl35.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINNT\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINNT\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\Threed20.ocx=$(WinSysPath)
+C:\WINNT\system32\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\Sheridan\ActiveTreeView\SSTree.ocx=$(WinSysPath)
+C:\Sheridan\ActiveThreed\SPLITTER.OCX=$(WinSysPath)
+C:\WINNT\system32\COMCTL32.OCX=$(WinSysPath)
+C:\WINNT\system32\TABCTL32.OCX=$(WinSysPath)
+C:\Program Files\IPWorks V4\ActiveX Edition\lib\ipport40.ocx=$(WinSysPath)
+C:\Program Files\IPWorks V4\ActiveX Edition\lib\netcod40.ocx=$(WinSysPath)
+C:\Program Files\IPWorks V4\ActiveX Edition\lib\ipinfo40.ocx=$(WinSysPath)
+C:\Program Files\IPWorks V4\ActiveX Edition\lib\http40.ocx=$(WinSysPath)
+C:\Program Files\IPWorks V4\ActiveX Edition\lib\smtp40.ocx=$(WinSysPath)
+C:\Program Files\IPWorks V4\ActiveX Edition\lib\nntp40.ocx=$(WinSysPath)
+C:\Program Files\IPWorks V4\ActiveX Edition\lib\mime40.ocx=$(WinSysPath)
+C:\WINNT\system32\FileIconImageList.ocx=$(WinSysPath)
+C:\Program Files\IPWorks V4\ActiveX Edition\lib\pop40.ocx=$(WinSysPath)
+C:\WINNT\system32\MSMASK32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Pi32v4\Distribution Files\KeyServerURL.TXT=$(AppPath)
+D:\Pi32v4\Distribution Files\EMAIL.TXT=$(AppPath)
+D:\Pi32v4\Distribution Files\headers.txt=$(AppPath)
+D:\Pi32v4\Distribution Files\hello.txt=$(AppPath)
+D:\Pi32v4\Distribution Files\InfoURL.TXT=$(AppPath)
+D:\Pi32v4\Distribution Files\ADDRESS.TXT=$(AppPath)
+D:\Pi32v4\Distribution Files\nymkeys.txt=$(AppPath)
+D:\Pi32v4\Distribution Files\MixListURL.TXT=$(AppPath)
+D:\Pi32v4\Distribution Files\mixmaster.htm=$(AppPath)
+D:\Pi32v4\Distribution Files\MixPubRingURL.TXT=$(AppPath)
+D:\Pi32v4\Distribution Files\MixType2URL.TXT=$(AppPath)
+D:\Pi32v4\Distribution Files\keysURL.TXT=$(AppPath)
+D:\Pi32v4\Distribution Files\type2.lis=$(AppPath)
+D:\Pi32v4\Distribution Files\pubring.mix=$(AppPath)
+D:\Pi32v4\Distribution Files\remailer.htm=$(AppPath)
+D:\Pi32v4\Distribution Files\RemailerURL.TXT=$(AppPath)
+D:\Pi32v4\Distribution Files\SIG.TXT=$(AppPath)
+D:\Pi32v4\Distribution Files\SubmitKeyAddr.TXT=$(AppPath)
+D:\Pi32v4\Distribution Files\PI32PostOffice.mdb=$(AppPath)
+D:\Pi32v4\Distribution Files\URLS.TXT=$(AppPath)
+D:\Pi32v4\Distribution Files\USENET.txt=$(AppPath)
+
+[Package|PI Version 4 DEP|Configure Shared Files]
+Applicable=Yes
+D:\Pi32v4\pi32v4.exe=No
+C:\WINNT\system32\APIGID32.DLL=Yes
+C:\WINNT\system32\spgp.dll=Yes
+D:\Pi32v4\Distribution Files\KeyServerURL.TXT=No
+D:\Pi32v4\Distribution Files\EMAIL.TXT=No
+D:\Pi32v4\Distribution Files\headers.txt=No
+D:\Pi32v4\Distribution Files\hello.txt=No
+D:\Pi32v4\Distribution Files\InfoURL.TXT=No
+D:\Pi32v4\Distribution Files\ADDRESS.TXT=No
+D:\Pi32v4\Distribution Files\nymkeys.txt=No
+D:\Pi32v4\Distribution Files\MixListURL.TXT=No
+D:\Pi32v4\Distribution Files\mixmaster.htm=No
+D:\Pi32v4\Distribution Files\MixPubRingURL.TXT=No
+D:\Pi32v4\Distribution Files\MixType2URL.TXT=No
+D:\Pi32v4\Distribution Files\keysURL.TXT=No
+D:\Pi32v4\Distribution Files\type2.lis=No
+D:\Pi32v4\Distribution Files\pubring.mix=No
+D:\Pi32v4\Distribution Files\remailer.htm=No
+D:\Pi32v4\Distribution Files\RemailerURL.TXT=No
+D:\Pi32v4\Distribution Files\SIG.TXT=No
+D:\Pi32v4\Distribution Files\SubmitKeyAddr.TXT=No
+D:\Pi32v4\Distribution Files\PI32PostOffice.mdb=No
+D:\Pi32v4\Distribution Files\URLS.TXT=No
+D:\Pi32v4\Distribution Files\USENET.txt=No
+
+[Package|PI Version 4 DEP|Distribution]
+Type=single
+Size=1.44 MB
+Title=Private Idaho 32 (Version 4)
+
+[Package|PI Version 4 DEP|IconGroups]
+Group0=Private Idaho 32 (Version 4)
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|PI Version 4 DEP|Private Idaho 32 (Version 4)]
+Icon1=pi32v4.exe
+Title1=Private Idaho v4
+StartIn1=$(AppPath)
+Key1=Icon2
+
+[Package|PI Version 4 DEP|DepFile]
+DepCabFile=pi32v4.CAB
+DepCabRun=pi32v4.INF
+
+[Package|PI Version 4 DEP|Package]
+PackageFolder=D:\Pi32v4
+ProjectFolder=D:\Pi32v4
+ServerSideCab=
+File1=D:\Pi32v4\pi32v4.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|PI Version 4|Private Idaho Version 4]
+Icon1=pi32v4.exe
+Title1=Private Idaho v4.1
+StartIn1=$(AppPath)
+Key1=Icon2
+
+
+[Package|PI Version 4|Private Idaho 32 Version 4]
+Icon1=pi32v4.exe
+Title1=Private Idaho v4
+StartIn1=$(AppPath)
+Key1=Icon2
+
+[Package|PI Version 4|Private Idaho 32 (Version 4)]
+Icon1=pi32v4.exe
+Title1=Private Idaho v4
+StartIn1=$(AppPath)
+Key1=Icon2
+
+[Package|PI Version 4|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Pi32v4\Package
+
+[Package|PI Version 4|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=No
+Jet 2.x=Yes
+
+[Package|PI Version 4|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|PI Version 4|Files Found]
+
+[Package|PI Version 4|Files Released]
+address.txt=
+urls.txt=
+sig.txt=
+remailerurl.txt=
+nymkeys.txt=
+email.txt=
+pubring.mix=
+type2.lis=
+mixmaster.htm=
+
+[Package|PI Version 4|Missing Dependency Information]
+C:\Program Files\IPWorks V4\ActiveX Edition\lib\pop40.ocx=
+C:\WINNT\system32\FileIconImageList.ocx=
+C:\Program Files\IPWorks V4\ActiveX Edition\lib\mime40.ocx=
+C:\Program Files\IPWorks V4\ActiveX Edition\lib\nntp40.ocx=
+C:\Program Files\IPWorks V4\ActiveX Edition\lib\smtp40.ocx=
+C:\Program Files\IPWorks V4\ActiveX Edition\lib\http40.ocx=
+C:\Program Files\IPWorks V4\ActiveX Edition\lib\ipinfo40.ocx=
+C:\Program Files\IPWorks V4\ActiveX Edition\lib\netcod40.ocx=
+C:\Program Files\IPWorks V4\ActiveX Edition\lib\ipport40.ocx=
+C:\Sheridan\ActiveTreeView\SSTree.ocx=
+C:\WINNT\system32\pop40.ocx=
+C:\WINNT\system32\mime40.ocx=
+C:\WINNT\system32\nntp40.ocx=
+C:\WINNT\system32\smtp40.ocx=
+C:\WINNT\system32\http40.ocx=
+C:\WINNT\system32\ipinfo40.ocx=
+C:\WINNT\system32\netcod40.ocx=
+C:\WINNT\system32\ipport40.ocx=
+
+[Package|PI Version 4|Out-of-Date Dependency Information]
+C:\WINNT\system32\SPLITTER.OCX=
+C:\WINNT\system32\THREED20.OCX=
+
+[Package|PI Version 4|Files Added]
+d:\pi32v4\distribution files\keyserverurl.txt=
+d:\pi32v4\distribution files\headers.txt=
+d:\pi32v4\distribution files\hello.txt=
+d:\pi32v4\distribution files\infourl.txt=
+d:\pi32v4\distribution files\mixlisturl.txt=
+mixmaster.htm=
+d:\pi32v4\distribution files\mixpubringurl.txt=
+d:\pi32v4\distribution files\mixtype2url.txt=
+d:\pi32v4\distribution files\keysurl.txt=
+type2.lis=
+pubring.mix=
+d:\pi32v4\distribution files\remailer.htm=
+d:\pi32v4\distribution files\submitkeyaddr.txt=
+d:\pi32v4\distribution files\pi32postoffice.mdb=
+d:\pi32v4\distribution files\usenet.txt=
+
+[Package|PI Version 4|Files Removed]
+d:\pi32v4\distribution files\hello.txt=
+
+[Package|PI Version 4|Files In Project]
+D:\Pi32v4\pi32v4.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\WINNT\system32\OLEAUT32.DLL=Yes
+C:\WINNT\system32\OLEPRO32.DLL=Yes
+C:\WINNT\system32\ASYCFILT.DLL=Yes
+C:\WINNT\system32\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\APIGID32.DLL=Yes
+C:\WINNT\system32\spgp.dll=Yes
+C:\WINNT\system32\COMDLG32.OCX=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINNT\system32\msjet35.dll=Yes
+C:\WINNT\system32\MSJTER35.DLL=Yes
+C:\WINNT\system32\MSJINT35.DLL=Yes
+C:\WINNT\system32\VBAJET32.DLL=Yes
+C:\WINNT\system32\EXPSRV.DLL=Yes
+C:\WINNT\system32\MSRD2X35.DLL=Yes
+C:\WINNT\system32\msrepl35.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINNT\system32\VB5DB.DLL=Yes
+C:\WINNT\system32\MSFLXGRD.OCX=Yes
+C:\WINNT\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINNT\system32\Threed20.ocx=Yes
+C:\WINNT\system32\MSVCRT.DLL=Yes
+C:\WINNT\system32\COMCTL32.OCX=Yes
+C:\WINNT\system32\TABCTL32.OCX=Yes
+C:\WINNT\system32\FileIconImageList.ocx=Yes
+C:\WINNT\system32\MSMASK32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Pi32v4\Distribution Files\KeyServerURL.TXT=Yes
+D:\Pi32v4\Distribution Files\headers.txt=Yes
+D:\Pi32v4\Distribution Files\hello.txt=No
+D:\Pi32v4\Distribution Files\InfoURL.TXT=Yes
+D:\Pi32v4\Distribution Files\MixListURL.TXT=Yes
+D:\Pi32v4\Distribution Files\MixPubRingURL.TXT=Yes
+D:\Pi32v4\Distribution Files\MixType2URL.TXT=Yes
+D:\Pi32v4\Distribution Files\keysURL.TXT=Yes
+D:\Pi32v4\Distribution Files\remailer.htm=Yes
+D:\Pi32v4\Distribution Files\SubmitKeyAddr.TXT=Yes
+D:\Pi32v4\Distribution Files\PI32PostOffice.mdb=Yes
+D:\Pi32v4\Distribution Files\USENET.txt=Yes
+C:\WINNT\system32\SSTree.ocx=Yes
+C:\WINNT\system32\SPLITTER.OCX=Yes
+C:\Program Files\IPWorks V4\ActiveX Edition\lib\ipport40.ocx=Yes
+C:\Program Files\IPWorks V4\ActiveX Edition\lib\netcod40.ocx=Yes
+C:\Program Files\IPWorks V4\ActiveX Edition\lib\ipinfo40.ocx=Yes
+C:\Program Files\IPWorks V4\ActiveX Edition\lib\http40.ocx=Yes
+C:\Program Files\IPWorks V4\ActiveX Edition\lib\smtp40.ocx=Yes
+C:\Program Files\IPWorks V4\ActiveX Edition\lib\nntp40.ocx=Yes
+C:\Program Files\IPWorks V4\ActiveX Edition\lib\mime40.ocx=Yes
+C:\Program Files\IPWorks V4\ActiveX Edition\lib\pop40.ocx=Yes
+
+[Package|PI Version 4|Configure Registry Files]
+Applicable=No
+
+[Package|PI Version 4|Configure Remote Servers]
+Applicable=No
+
+[Package|PI Version 4|Install Locations]
+D:\Pi32v4\pi32v4.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\APIGID32.DLL=$(WinSysPath)
+C:\WINNT\system32\spgp.dll=$(WinSysPath)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINNT\system32\msjet35.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\VBAJET32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\EXPSRV.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\msrepl35.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINNT\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINNT\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\Threed20.ocx=$(WinSysPath)
+C:\WINNT\system32\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\Sheridan\ActiveTreeView\SSTree.ocx=$(WinSysPath)
+C:\Sheridan\ActiveThreed\SPLITTER.OCX=$(WinSysPath)
+C:\WINNT\system32\COMCTL32.OCX=$(WinSysPath)
+C:\WINNT\system32\TABCTL32.OCX=$(WinSysPath)
+C:\Program Files\IPWorks V4\ActiveX Edition\lib\ipport40.ocx=$(WinSysPath)
+C:\Program Files\IPWorks V4\ActiveX Edition\lib\netcod40.ocx=$(WinSysPath)
+C:\Program Files\IPWorks V4\ActiveX Edition\lib\ipinfo40.ocx=$(WinSysPath)
+C:\Program Files\IPWorks V4\ActiveX Edition\lib\http40.ocx=$(WinSysPath)
+C:\Program Files\IPWorks V4\ActiveX Edition\lib\smtp40.ocx=$(WinSysPath)
+C:\Program Files\IPWorks V4\ActiveX Edition\lib\nntp40.ocx=$(WinSysPath)
+C:\Program Files\IPWorks V4\ActiveX Edition\lib\mime40.ocx=$(WinSysPath)
+C:\WINNT\system32\FileIconImageList.ocx=$(WinSysPath)
+C:\Program Files\IPWorks V4\ActiveX Edition\lib\pop40.ocx=$(WinSysPath)
+C:\WINNT\system32\MSMASK32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Pi32v4\Distribution Files\KeyServerURL.TXT=$(AppPath)
+D:\Pi32v4\Distribution Files\EMAIL.TXT=$(AppPath)
+D:\Pi32v4\Distribution Files\headers.txt=$(AppPath)
+D:\Pi32v4\Distribution Files\hello.txt=$(AppPath)
+D:\Pi32v4\Distribution Files\InfoURL.TXT=$(AppPath)
+D:\Pi32v4\Distribution Files\ADDRESS.TXT=$(AppPath)
+D:\Pi32v4\Distribution Files\nymkeys.txt=$(AppPath)
+D:\Pi32v4\Distribution Files\MixListURL.TXT=$(AppPath)
+D:\Pi32v4\Distribution Files\mixmaster.htm=$(AppPath)
+D:\Pi32v4\Distribution Files\MixPubRingURL.TXT=$(AppPath)
+D:\Pi32v4\Distribution Files\MixType2URL.TXT=$(AppPath)
+D:\Pi32v4\Distribution Files\keysURL.TXT=$(AppPath)
+D:\Pi32v4\Distribution Files\type2.lis=$(AppPath)
+D:\Pi32v4\Distribution Files\pubring.mix=$(AppPath)
+D:\Pi32v4\Distribution Files\remailer.htm=$(AppPath)
+D:\Pi32v4\Distribution Files\RemailerURL.TXT=$(AppPath)
+D:\Pi32v4\Distribution Files\SIG.TXT=$(AppPath)
+D:\Pi32v4\Distribution Files\SubmitKeyAddr.TXT=$(AppPath)
+D:\Pi32v4\Distribution Files\PI32PostOffice.mdb=$(AppPath)
+D:\Pi32v4\Distribution Files\URLS.TXT=$(AppPath)
+D:\Pi32v4\Distribution Files\USENET.txt=$(AppPath)
+C:\WINNT\system32\SSTree.ocx=$(WinSysPath)
+C:\WINNT\system32\SSPng.dll=$(WinSysPath)
+C:\WINNT\system32\SPLITTER.OCX=$(WinSysPath)
+C:\WINNT\system32\ipport40.ocx=$(WinSysPath)
+C:\WINNT\system32\netcod40.ocx=$(WinSysPath)
+C:\WINNT\system32\ipinfo40.ocx=$(WinSysPath)
+C:\WINNT\system32\http40.ocx=$(WinSysPath)
+C:\WINNT\system32\smtp40.ocx=$(WinSysPath)
+C:\WINNT\system32\nntp40.ocx=$(WinSysPath)
+C:\WINNT\system32\mime40.ocx=$(WinSysPath)
+C:\WINNT\system32\pop40.ocx=$(WinSysPath)
+
+[Package|PI Version 4|Configure Shared Files]
+Applicable=Yes
+D:\Pi32v4\pi32v4.exe=No
+C:\WINNT\system32\APIGID32.DLL=Yes
+C:\WINNT\system32\spgp.dll=Yes
+D:\Pi32v4\Distribution Files\KeyServerURL.TXT=No
+D:\Pi32v4\Distribution Files\EMAIL.TXT=No
+D:\Pi32v4\Distribution Files\headers.txt=No
+D:\Pi32v4\Distribution Files\hello.txt=No
+D:\Pi32v4\Distribution Files\InfoURL.TXT=No
+D:\Pi32v4\Distribution Files\ADDRESS.TXT=No
+D:\Pi32v4\Distribution Files\nymkeys.txt=No
+D:\Pi32v4\Distribution Files\MixListURL.TXT=No
+D:\Pi32v4\Distribution Files\mixmaster.htm=No
+D:\Pi32v4\Distribution Files\MixPubRingURL.TXT=No
+D:\Pi32v4\Distribution Files\MixType2URL.TXT=No
+D:\Pi32v4\Distribution Files\keysURL.TXT=No
+D:\Pi32v4\Distribution Files\type2.lis=No
+D:\Pi32v4\Distribution Files\pubring.mix=No
+D:\Pi32v4\Distribution Files\remailer.htm=No
+D:\Pi32v4\Distribution Files\RemailerURL.TXT=No
+D:\Pi32v4\Distribution Files\SIG.TXT=No
+D:\Pi32v4\Distribution Files\SubmitKeyAddr.TXT=No
+D:\Pi32v4\Distribution Files\PI32PostOffice.mdb=No
+D:\Pi32v4\Distribution Files\URLS.TXT=No
+D:\Pi32v4\Distribution Files\USENET.txt=No
+
+[Package|PI Version 4|Distribution]
+Type=single
+Size=1.44 MB
+Title=Private Idaho Version 4.2
+
+[Package|PI Version 4|IconGroups]
+Group0=Private Idaho 32
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|PI Version 4|Private Idaho 32]
+Icon1=pi32v4.exe
+Title1=Private Idaho v4.2
+StartIn1=$(AppPath)
+Key1=Icon2
+
+[Package|PI Version 4|Package]
+PackageFolder=D:\Pi32v4\Package
+ProjectFolder=D:\Pi32v4
+ServerSideCab=
+File1=D:\Pi32v4\Package\setup.exe
+File2=D:\Pi32v4\Package\Setup.Lst
+File3=D:\Pi32v4\Package\pi32v4.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
