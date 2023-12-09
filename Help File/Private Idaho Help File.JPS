@@ -1,0 +1,63 @@
+Helpfile Summary for D:\Pi32v4\Help File\ Private Idaho Help File
+
+
+===============*** Context Strings ***======================
+
+
+=== Format is: Title - ContextString (HelpContextID) ======
+Private Idaho                   - Hlp_Private_Idaho        (10)*** Starting topic ***
+Nyms                            - Hlp_Nyms                 (20)
+============================================================
+
+
+
+
+============================================================
+TOPIC NAME:   Private Idaho                                                                                                                                                                                                                                                   
+*** This is the starting topic for the helpfile. ***
+============================================================
+CONTEXT ID STRING:          Hlp_Private_Idaho
+CONTEXT NUMBER:              10 
+Browse Sequence:            Browse:0005
+:Keywords:
+Private Idaho
+
+List of Jump Numbers
+(10)
+---------------There are Jumps TO this topic from...---------
+
+---------------Jumps to OTHER topics -----------------------
+Hotspot text...                                             
+               <Destination topic title>                        
+------------------------------------------------------------
+nyms
+               <Nyms>
+=============================================================
+
+
+
+
+
+============================================================
+TOPIC NAME:   Nyms                                                                                                                                                                                                                                                            
+============================================================
+CONTEXT ID STRING:          Hlp_Nyms
+CONTEXT NUMBER:              20 
+Browse Sequence:            Browse:0010
+:Keywords:
+Nyms
+
+List of Jump Numbers
+
+---------------There are Jumps TO this topic from...---------
+<Private Idaho>
+
+
+---------------Jumps to OTHER topics -----------------------
+Hotspot text...                                             
+               <Destination topic title>                        
+------------------------------------------------------------
+=============================================================
+
+
+
